@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.surface.surface.CLIStarter</OriginalElement>
+  <nodes>
+    <node x="7437.22488931215" y="-24.5">org.surface.surface.results.values.MetricValue</node>
+    <node x="4065.3981844369227" y="3391.5">org.surface.surface.core.control.ProjectsControl</node>
+    <node x="6389.652897630992" y="2244.5">org.surface.surface.core.metrics.projectlevel.ccr.CCRCached</node>
+    <node x="7632.848593123357" y="1578.5">org.surface.surface.core.metrics.projectlevel.sccr.SCCR</node>
+    <node x="4055.066555978816" y="-281.5">org.surface.surface.results.AnalyzerResults</node>
+    <node x="3415.265259790024" y="929.0">org.surface.surface.results.values.IntMetricValue</node>
+    <node x="337.82905597881654" y="486.5">org.surface.surface.results.ProjectAnalyzerResults</node>
+    <node x="1458.7330848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.cm.CMCached</node>
+    <node x="3522.370722645483" y="1914.5">org.surface.surface.core.metrics.classlevel.cma.CMAImpl</node>
+    <node x="5276.652897630992" y="2244.5">org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached</node>
+    <node x="-126.35024852881816" y="563.5">org.surface.surface.core.analysis.ClassAnalyzer</node>
+    <node x="6812.611230964325" y="2244.5">org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached</node>
+    <node x="5685.515259790024" y="1914.5">org.surface.surface.core.metrics.projectlevel.cce.CCEImpl</node>
+    <node x="7939.598593123357" y="1836.5">org.surface.surface.results.ClassMetricsResults</node>
+    <node x="2774.2235931233577" y="2526.5">org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure</node>
+    <node x="611.0664181378488" y="2244.5">org.surface.surface.core.metrics.classlevel.rp.RPCached</node>
+    <node x="3458.058222645483" y="1578.5">org.surface.surface.core.metrics.classlevel.rp.RP</node>
+    <node x="7424.848593123357" y="1578.5">org.surface.surface.core.metrics.projectlevel.ccr.CCR</node>
+    <node x="9437.537797998584" y="3074.0">org.surface.surface.data.imports.CSVSnapshotsImporter</node>
+    <node x="3184.058222645483" y="1578.5">org.surface.surface.core.metrics.classlevel.cm.CM</node>
+    <node x="5314.515259790024" y="1914.5">org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl</node>
+    <node x="6018.652897630992" y="2244.5">org.surface.surface.core.metrics.projectlevel.cme.CMECached</node>
+    <node x="665.7457226454835" y="929.0">org.surface.surface.results.values.BooleanMetricValue</node>
+    <node x="4868.2856844369235" y="2244.5">org.surface.surface.core.metrics.projectlevel.cc.CCCached</node>
+    <node x="2220.058222645483" y="1914.5">org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl</node>
+    <node x="6963.848593123357" y="1578.5">org.surface.surface.core.metrics.projectlevel.cce.CCE</node>
+    <node x="9209.52488931215" y="2189.0">org.surface.surface.data.bean.Snapshot</node>
+    <node x="3542.286093123357" y="3666.0">org.surface.surface.cli.CLIOptions</node>
+    <node x="7634.848593123357" y="2703.5">org.surface.surface.core.metrics.MetricsFactory</node>
+    <node x="3068.558222645483" y="2244.5">org.surface.surface.core.metrics.classlevel.cmr.CMRCached</node>
+    <node x="8354.848593123357" y="1591.0">org.surface.surface.results.MetricsResults</node>
+    <node x="715.2457226454826" y="1914.5">org.surface.surface.core.metrics.classlevel.rp.RPImpl</node>
+    <node x="7109.848593123357" y="917.5">org.surface.surface.core.metrics.api.ProjectMetric</node>
+    <node x="4859.890259790024" y="929.0">org.surface.surface.results.values.DoubleMetricValue</node>
+    <node x="5647.652897630992" y="2244.5">org.surface.surface.core.metrics.projectlevel.cce.CCECached</node>
+    <node x="5927.015259790024" y="598.0">org.surface.surface.results.values.NumericMetricValue</node>
+    <node x="2489.495722645483" y="-200.5">org.surface.surface.results.ClassifiedAnalyzerResults</node>
+    <node x="7315.848593123357" y="1578.5">org.surface.surface.core.metrics.projectlevel.cscr.CSCR</node>
+    <node x="8632.337251471183" y="2133.5">org.surface.surface.results.ProjectMetricsResults</node>
+    <node x="2593.058222645483" y="1578.5">org.surface.surface.core.metrics.classlevel.ca.CA</node>
+    <node x="7375.536230964325" y="3074.0">org.surface.surface.core.metrics.ProjectMetricsFactory</node>
+    <node x="4014.286093123357" y="3643.0">org.surface.surface.core.control.SingleLocalProjectControl</node>
+    <node x="-304.17094402118346" y="3018.5">org.surface.surface.core.analysis.ClassifiedAnalyzer</node>
+    <node x="2690.058222645483" y="1914.5">org.surface.surface.core.metrics.classlevel.civa.CIVAImpl</node>
+    <node x="3478.4205848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.cma.CMACached</node>
+    <node x="1098.7330848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.ca.CACached</node>
+    <node x="2202.2330848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.ccva.CCVACached</node>
+    <node x="3717.286093123357" y="3588.5">org.surface.surface.core.SurfaceInput</node>
+    <node x="8767.662797998584" y="3260.5">org.surface.surface.data.exports.SnapshotExporterFactory</node>
+    <node x="25.649751471181844" y="2669.5">org.surface.surface.core.analysis.ClassifiedPatterns</node>
+    <node x="4009.9332226454826" y="1578.5">org.surface.surface.core.metrics.classlevel.ccva.CCVA</node>
+    <node x="5670.97488931215" y="530.5">org.surface.surface.core.metrics.api.Metric</node>
+    <node x="3074.058222645483" y="1914.5">org.surface.surface.core.metrics.classlevel.cmr.CMRImpl</node>
+    <node x="-13.683581862151186" y="3260.5">org.surface.surface.core.analysis.ProjectAnalyzer</node>
+    <node x="7603.460684436923" y="3260.5">org.surface.surface.core.metrics.api.ProjectMetricsCalculator</node>
+    <node x="8839.64988931215" y="3074.0">org.surface.surface.data.exports.NullSnapshotExporter</node>
+    <node x="9327.02488931215" y="2703.5">org.surface.surface.data.imports.SnapshotsImporter</node>
+    <node x="2641.558222645483" y="2244.5">org.surface.surface.core.metrics.classlevel.civa.CIVACached</node>
+    <node x="8118.348593123357" y="3655.0">org.surface.surface.core.control.RemoteSnapshotsProjectsControl</node>
+    <node x="6427.515259790024" y="1914.5">org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl</node>
+    <node x="1464.245722645483" y="1914.5">org.surface.surface.core.metrics.classlevel.cm.CMImpl</node>
+    <node x="1829.745722645483" y="1914.5">org.surface.surface.core.metrics.classlevel.cai.CAIImpl</node>
+    <node x="1104.245722645483" y="1914.5">org.surface.surface.core.metrics.classlevel.ca.CAImpl</node>
+    <node x="8418.710684436923" y="3074.0">org.surface.surface.data.exports.CSVSnapshotExporter</node>
+    <node x="3678.4862309643254" y="1578.5">org.surface.surface.core.metrics.classlevel.cai.CAI</node>
+    <node x="4324.515259790024" y="917.5">org.surface.surface.core.metrics.api.ClassMetric</node>
+    <node x="8977.702897630992" y="3425.5">org.surface.surface.data.exports.ProjectMetricsResultsExporter</node>
+    <node x="7527.848593123357" y="1578.5">org.surface.surface.core.metrics.projectlevel.cme.CME</node>
+    <node x="3903.9332226454826" y="1578.5">org.surface.surface.core.metrics.classlevel.cmr.CMR</node>
+    <node x="3778.452759790024" y="3882.5">org.surface.surface.core.Surface</node>
+    <node x="8896.787797998584" y="2703.5">org.surface.surface.data.exports.SnapshotExporter</node>
+    <node x="6492.723593123357" y="2570.5">org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure</node>
+    <node x="6056.515259790024" y="1914.5">org.surface.surface.core.metrics.projectlevel.cme.CMEImpl</node>
+    <node x="4967.515259790024" y="1914.5">org.surface.surface.core.metrics.projectlevel.cc.CCImpl</node>
+    <node x="4185.170584804515" y="1578.5">org.surface.surface.core.metrics.classlevel.civa.CIVA</node>
+    <node x="4320.308222645483" y="1578.5">org.surface.surface.core.metrics.classlevel.cma.CMA</node>
+    <node x="6657.736230964325" y="1578.5">org.surface.surface.core.metrics.projectlevel.cc.CC</node>
+    <node x="3733.702759790024" y="4011.5">org.surface.surface.CLIStarter</node>
+    <node x="6846.348593123357" y="1914.5">org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl</node>
+    <node x="1818.2330848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.cai.CAICached</node>
+    <node x="3564.452759790024" y="3882.5">org.surface.surface.cli.CLIParser</node>
+    <node x="2724.7235931233577" y="3074.0">org.surface.surface.core.metrics.ClassMetricsFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" relationship="TO_ONE">
+      <point x="-60.00026922746247" y="-38.5" />
+      <point x="-97.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.cme.CME" relationship="DEPENDENCY">
+      <point x="19.31236215903209" y="-38.5" />
+      <point x="-35.0" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" relationship="CREATE">
+      <point x="76.0" y="-75.0004736290557" />
+      <point x="3239.058222645483" y="2655.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.results.ProjectAnalyzerResults" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="TO_MANY">
+      <point x="14.999572424712824" y="-138.5004736290557" />
+      <point x="504.82862840352936" y="425.2075263709444" />
+      <point x="2737.9956284035293" y="425.2075263709444" />
+      <point x="-9.4241953661367E-5" y="281.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cai.CAICached" relationship="CREATE">
+      <point x="-76.0" y="-78.5" />
+      <point x="1988.7330848045153" y="2652.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="TO_ONE">
+      <point x="-170.49959424195367" y="-4.7362905564796165E-4" />
+      <point x="2597.3936284035294" y="1952.9995263709443" />
+      <point x="2597.3936284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1605.4995263709443" />
+      <point x="-37.99959424195367" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.SnapshotExporterFactory" target="org.surface.surface.data.exports.CSVSnapshotExporter" relationship="CREATE">
+      <point x="-122.5" y="0.0" />
+      <point x="8703.84862840353" y="3299.0" />
+      <point x="110.13794396660705" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="-38.50047362905559" />
+      <point x="2812.0586284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.core.metrics.classlevel.cmr.CMR" relationship="GENERALIZATION">
+      <point x="15.000405758046384" y="38.49952637094435" />
+      <point x="3259.5586284035294" y="2198.2075263709444" />
+      <point x="3961.9336284035294" y="2198.2075263709444" />
+      <point x="15.00040575804681" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="14.999905758046452" y="-38.50047362905565" />
+      <point x="2015.2456284035295" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.core.metrics.classlevel.cai.CAI" relationship="GENERALIZATION">
+      <point x="-15.000456400985968" y="-38.50047362905559" />
+      <point x="1973.7326284035294" y="2133.2075263709444" />
+      <point x="2582.3936284035294" y="2133.2075263709444" />
+      <point x="2582.3936284035294" y="1739.2075263709444" />
+      <point x="3732.9866284035293" y="1739.2075263709444" />
+      <point x="15.000397439204033" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.cmr.CMR" relationship="DEPENDENCY">
+      <point x="135.5" y="29.999526370944295" />
+      <point x="3916.9336284035294" y="3142.4995263709443" />
+      <point x="-29.99959424195319" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetric" target="org.surface.surface.core.metrics.api.Metric" relationship="GENERALIZATION">
+      <point x="3.528017214193824E-5" y="-38.50047362905559" />
+      <point x="7227.34862840353" y="894.2075263709444" />
+      <point x="5756.974628403529" y="894.2075263709444" />
+      <point x="14.999739091379752" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="170.50040575804633" y="-4.7362905564796165E-4" />
+      <point x="3050.3936284035294" y="1952.9995263709443" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="DEPENDENCY">
+      <point x="34.16054359901409" y="-38.50047362905559" />
+      <point x="2406.8936284035294" y="2230.2075263709444" />
+      <point x="2616.0586284035294" y="2230.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="-9.424195364005072E-5" y="-38.50047362905565" />
+      <point x="3692.8706284035293" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="DEPENDENCY">
+      <point x="-140.49960256079567" y="-4.7362905570480507E-4" />
+      <point x="7316.39362840353" y="3112.4995263709443" />
+      <point x="7316.39362840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="955.9995263709443" />
+      <point x="117.50003528017214" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.cli.CLIParser" target="org.surface.surface.core.SurfaceInput" relationship="CREATE">
+      <point x="63.33333333333303" y="-38.5" />
+      <point x="-131.0" y="116.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="170.49990575804645" y="-4.7362905564796165E-4" />
+      <point x="2187.3936284035294" y="1952.9995263709443" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="-14.999594241953673" y="-38.50047362905565" />
+      <point x="2375.5586284035294" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.ProjectMetricsResultsExporter" target="org.surface.surface.data.exports.SnapshotExporter" relationship="DEPENDENCY">
+      <point x="-2.6922746201307746E-4" y="-38.500473629055705" />
+      <point x="9157.20262840353" y="3391.2075263709444" />
+      <point x="9207.14962840353" y="3391.2075263709444" />
+      <point x="135.36183040494598" y="26.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.ProjectMetricsResultsExporter" target="org.surface.surface.results.ProjectMetricsResults" relationship="TO_ONE">
+      <point x="179.5" y="0.0" />
+      <point x="9742.03762840353" y="3464.0" />
+      <point x="9742.03762840353" y="2171.5" />
+      <point x="203.0" y="-111.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" relationship="DEPENDENCY">
+      <point x="-108.68763784096791" y="-38.5" />
+      <point x="7407.348593123357" y="1739.2075263709444" />
+      <point x="7375.34862840353" y="1739.2075263709444" />
+      <point x="15.000035280172142" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.core.metrics.classlevel.ccva.CCVA" relationship="GENERALIZATION">
+      <point x="-14.999594241953673" y="38.49952637094435" />
+      <point x="2375.5586284035294" y="2064.2075263709444" />
+      <point x="4055.4336284035294" y="2064.2075263709444" />
+      <point x="4.0575804683840033E-4" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" relationship="GENERALIZATION">
+      <point x="164.00003528017214" y="-4.7362905564796165E-4" />
+      <point x="7194.39362840353" y="1952.9995263709443" />
+      <point x="7194.39362840353" y="1789.2075263709444" />
+      <point x="7692.34862840353" y="1789.2075263709444" />
+      <point x="15.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CAImpl" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="GENERALIZATION">
+      <point x="-15.000094241953775" y="38.49952637094435" />
+      <point x="1247.7456284035293" y="2082.2075263709444" />
+      <point x="2646.0586284035294" y="2082.2075263709444" />
+      <point x="15.000405758046327" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.NullSnapshotExporter" target="org.surface.surface.data.exports.SnapshotExporter" relationship="REALIZATION">
+      <point x="-175.00026090861957" y="14.999526370944295" />
+      <point x="8822.39362840353" y="3127.4995263709443" />
+      <point x="8822.39362840353" y="2745.4995263709443" />
+      <point x="-175.0001695950541" y="14.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.results.ProjectAnalyzerResults" target="org.surface.surface.results.AnalyzerResults" relationship="REALIZATION">
+      <point x="-4.275752871762961E-4" y="-138.5004736290557" />
+      <point x="489.82862840352936" y="-225.79247362905562" />
+      <point x="4131.56662840353" y="-225.79247362905562" />
+      <point x="7.242471360768832E-5" y="14.499526370944295" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.6861350508843316E-4" y="38.49952637094435" />
+      <point x="6220.515628403529" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" relationship="TO_ONE">
+      <point x="-29.999594241953673" y="-38.5" />
+      <point x="-35.49959424195367" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CME" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="26.99952637094438" />
+      <point x="7570.34862840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.6861350531580683E-4" y="38.49952637094435" />
+      <point x="5119.515628403529" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="TO_ONE">
+      <point x="164.0003686135051" y="14.999526370944352" />
+      <point x="6815.39362840353" y="1967.9995263709443" />
+      <point x="6815.39362840353" y="1605.4995263709443" />
+      <point x="38.000397439204335" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" relationship="CREATE">
+      <point x="-79.5" y="-30.000473629055705" />
+      <point x="5440.652897630992" y="2700.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.CSVSnapshotExporter" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="-175.00005603339287" y="-4.7362905570480507E-4" />
+      <point x="7862.34862840353" y="3112.4995263709443" />
+      <point x="7862.34862840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="158.49990575804645" y="-4.7362905564796165E-4" />
+      <point x="1800.3936284035294" y="1952.9995263709443" />
+      <point x="1800.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMCached" target="org.surface.surface.results.values.IntMetricValue" relationship="TO_ONE">
+      <point x="-158.50045640098597" y="-4.7362905559111823E-4" />
+      <point x="1440.3936284035294" y="2282.9995263709443" />
+      <point x="1440.3936284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="940.9995263709443" />
+      <point x="-123.99963138649474" y="-15.000473629055591" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ClassifiedAnalyzer" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="CREATE">
+      <point x="-305.0" y="0.0" />
+      <point x="-336.67094402118346" y="3112.5" />
+      <point x="-336.67094402118346" y="65.9995263709443" />
+      <point x="-248.5" y="-15.000473629055705" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.MetricsFactory" relationship="REALIZATION">
+      <point x="3.5280171800877724E-5" y="-38.500473629055705" />
+      <point x="2860.2236284035293" y="3005.2075263709444" />
+      <point x="7732.34862840353" y="3005.2075263709444" />
+      <point x="3.528017214193824E-5" y="26.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="DEPENDENCY">
+      <point x="135.5000352801718" y="14.999526370944295" />
+      <point x="3452.3936284035294" y="3127.4995263709443" />
+      <point x="3452.3936284035294" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="1804.2075263709444" />
+      <point x="3208.5586284035294" y="1804.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="DEPENDENCY">
+      <point x="-15.000269227462468" y="-38.50047362905559" />
+      <point x="5796.65262840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="1804.2075263709444" />
+      <point x="6680.736628403529" y="1804.2075263709444" />
+      <point x="-14.999602560795665" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="-14.999594241953673" y="-38.50047362905565" />
+      <point x="2845.5586284035294" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCR" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="3.528017214193824E-5" y="-27.00047362905562" />
+      <point x="7466.34862840353" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="26.99952637094438" />
+      <point x="7360.34862840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cma.CMACached" relationship="CREATE">
+      <point x="76.0" y="-30.000473629055705" />
+      <point x="3648.9205848045153" y="2700.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="14.99990575804668" y="38.49952637094435" />
+      <point x="903.2456284035293" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="DEPENDENCY">
+      <point x="30.000035280172142" y="38.49952637094435" />
+      <point x="7040.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="955.9995263709443" />
+      <point x="117.50003528017214" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.core.metrics.ProjectMetricsFactory" relationship="CREATE">
+      <point x="-147.0" y="-38.5" />
+      <point x="94.92445347259763" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="DEPENDENCY">
+      <point x="-14.999631386494912" y="38.49952637094435" />
+      <point x="6576.515628403529" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="955.9995263709443" />
+      <point x="117.50003528017214" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="DEPENDENCY">
+      <point x="15.000397439204335" y="-38.50047362905559" />
+      <point x="6991.611628403529" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="1804.2075263709444" />
+      <point x="6680.736628403529" y="1804.2075263709444" />
+      <point x="-14.999602560795665" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" relationship="CREATE">
+      <point x="-45.00045640098597" y="-38.5" />
+      <point x="-62.825594241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.CSVSnapshotExporter" target="org.surface.surface.data.exports.SnapshotExporter" relationship="REALIZATION">
+      <point x="174.99994396660713" y="14.999526370944295" />
+      <point x="8822.39362840353" y="3127.4995263709443" />
+      <point x="8822.39362840353" y="2745.4995263709443" />
+      <point x="-175.0001695950541" y="14.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999594241953673" y="38.49952637094435" />
+      <point x="2845.5586284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.core.metrics.classlevel.civa.CIVA" relationship="GENERALIZATION">
+      <point x="-29.999594241953673" y="-38.50047362905559" />
+      <point x="2782.0586284035294" y="2088.2075263709444" />
+      <point x="4228.17062840353" y="2088.2075263709444" />
+      <point x="4.3599014531992E-5" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.ProjectMetricsFactory" relationship="INNER_CLASS">
+      <point x="-15.0" y="160.0" />
+      <point x="6557.223593123357" y="3142.4995263709443" />
+      <point x="-140.5" y="29.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.CSVSnapshotExporter" target="org.surface.surface.results.values.NumericMetricValue" relationship="DEPENDENCY">
+      <point x="14.999943966607134" y="-38.5" />
+      <point x="8608.710628403529" y="625.0" />
+      <point x="124.5" y="0.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMImpl" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="GENERALIZATION">
+      <point x="14.999905758046225" y="38.49952637094435" />
+      <point x="1637.7456284035293" y="2156.2075263709444" />
+      <point x="2661.0586284035294" y="2156.2075263709444" />
+      <point x="2661.0586284035294" y="1664.9995263709443" />
+      <point x="3193.5586284035294" y="1664.9995263709443" />
+      <point x="-29.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMA" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.057580467815569E-4" y="-27.00047362905562" />
+      <point x="4363.808628403529" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CACached" target="org.surface.surface.core.metrics.classlevel.ca.CAImpl" relationship="CREATE">
+      <point x="-30.000456400985968" y="-38.5" />
+      <point x="-35.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ClassifiedAnalyzer" target="org.surface.surface.core.analysis.ClassAnalyzer" relationship="GENERALIZATION">
+      <point x="-0.6794275752872636" y="-94.0" />
+      <point x="-15.000123067652567" y="61.5" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.SnapshotExporter" target="org.surface.surface.results.ProjectMetricsResults" relationship="DEPENDENCY">
+      <point x="-175.0001695950541" y="-4.7362905570480507E-4" />
+      <point x="8804.39362840353" y="2730.4995263709443" />
+      <point x="8804.39362840353" y="2846.7075263709444" />
+      <point x="8761.210628403529" y="2846.7075263709444" />
+      <point x="-74.12662306765287" y="149.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.results.values.DoubleMetricValue" target="org.surface.surface.results.values.NumericMetricValue" relationship="GENERALIZATION">
+      <point x="-14.999631386494684" y="-27.00047362905559" />
+      <point x="4981.390628403529" y="866.2075263709444" />
+      <point x="6036.515628403529" y="866.2075263709444" />
+      <point x="-14.999631386494912" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999631386494912" y="38.49952637094435" />
+      <point x="5834.515628403529" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPCached" target="org.surface.surface.core.metrics.classlevel.rp.RPImpl" relationship="CREATE">
+      <point x="-14.99978973431962" y="-38.5" />
+      <point x="-119.17909424195341" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" relationship="TO_ONE">
+      <point x="93.73739743920441" y="-38.5" />
+      <point x="60.00003528017214" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="-14.999964719827858" y="-38.50047362905565" />
+      <point x="6995.34862840353" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CAImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-9.424195377505384E-5" y="38.49952637094435" />
+      <point x="1262.7456284035293" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CACached" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="GENERALIZATION">
+      <point x="-15.000456400985968" y="-38.50047362905559" />
+      <point x="1242.2326284035294" y="2082.2075263709444" />
+      <point x="2646.0586284035294" y="2082.2075263709444" />
+      <point x="15.000405758046327" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RP" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.0575804635523127E-4" y="26.99952637094438" />
+      <point x="3495.0586284035294" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCR" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="26.99952637094438" />
+      <point x="7466.34862840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.cai.CAI" relationship="DEPENDENCY">
+      <point x="-45.0" y="38.5" />
+      <point x="2815.2235931233577" y="3355.0" />
+      <point x="-351.6709440211839" y="3355.0" />
+      <point x="-351.6709440211839" y="-299.0" />
+      <point x="3702.9862309643254" y="-299.0" />
+      <point x="-15.0" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ClassMetric" target="org.surface.surface.core.metrics.api.Metric" relationship="GENERALIZATION">
+      <point x="23.378368613505245" y="-38.50047362905559" />
+      <point x="4471.89362840353" y="894.2075263709444" />
+      <point x="5756.974628403529" y="894.2075263709444" />
+      <point x="14.999739091379752" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.CSVSnapshotExporter" target="org.surface.surface.data.bean.Snapshot" relationship="DEPENDENCY">
+      <point x="-5.6033392866083886E-5" y="-38.500473629055705" />
+      <point x="8593.710628403529" y="2568.2075263709444" />
+      <point x="9316.52462840353" y="2568.2075263709444" />
+      <point x="-2.609086195661803E-4" y="93.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.rp.RP" relationship="TO_ONE">
+      <point x="-76.0" y="29.999526370944295" />
+      <point x="593.5664181378488" y="2760.4995263709443" />
+      <point x="593.5664181378488" y="1287.2075263709444" />
+      <point x="3465.0586284035294" y="1287.2075263709444" />
+      <point x="-29.999594241953673" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMA" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999594241953218" y="26.99952637094438" />
+      <point x="4348.808628403529" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" relationship="DEPENDENCY">
+      <point x="39.31239743920423" y="-38.5" />
+      <point x="7555.34862840353" y="2312.9995263709443" />
+      <point x="7707.34862840353" y="2312.9995263709443" />
+      <point x="30.000035280172142" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.ProjectMetricsResultsExporter" target="org.surface.surface.data.bean.Snapshot" relationship="TO_ONE">
+      <point x="115.19073077253779" y="-38.5" />
+      <point x="-44.13126090861988" y="94.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCCached" target="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" relationship="CREATE">
+      <point x="-15.000056033394003" y="-38.5" />
+      <point x="-114.2296313864947" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="3.6861350508843316E-4" y="-38.50047362905565" />
+      <point x="6591.515628403529" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMA" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.057580467815569E-4" y="26.99952637094438" />
+      <point x="4363.808628403529" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-2.692274624678248E-4" y="-38.50047362905559" />
+      <point x="6553.65262840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CM" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="26.99952637094438" />
+      <point x="3223.5586284035294" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.control.ProjectsControl" target="org.surface.surface.results.ProjectMetricsResults" relationship="DEPENDENCY">
+      <point x="137.00044396660667" y="-4.7362905570480507E-4" />
+      <point x="8613.84862840353" y="3463.9995263709443" />
+      <point x="8613.84862840353" y="3168.4995263709443" />
+      <point x="8804.39362840353" y="3168.4995263709443" />
+      <point x="8804.39362840353" y="2846.7075263709444" />
+      <point x="8761.210628403529" y="2846.7075263709444" />
+      <point x="-74.12662306765287" y="149.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMCached" target="org.surface.surface.core.metrics.classlevel.cm.CMImpl" relationship="TO_ONE">
+      <point x="-15.000456400985968" y="-38.5" />
+      <point x="-20.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.Metric" target="org.surface.surface.results.AnalyzerResults" relationship="DEPENDENCY">
+      <point x="0.0" y="-94.5" />
+      <point x="5741.97488931215" y="-267.0" />
+      <point x="76.5" y="0.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="-9.424195354768017E-5" y="-38.50047362905565" />
+      <point x="2000.2456284035295" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="4.35990140914555E-5" y="-38.50047362905559" />
+      <point x="3648.9206284035295" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.core.metrics.projectlevel.ccr.CCR" relationship="GENERALIZATION">
+      <point x="-2.692274624678248E-4" y="38.49952637094441" />
+      <point x="6553.65262840353" y="2338.9995263709443" />
+      <point x="7158.111628403529" y="2338.9995263709443" />
+      <point x="7158.111628403529" y="2197.2075263709444" />
+      <point x="6831.39362840353" y="2197.2075263709444" />
+      <point x="6831.39362840353" y="1560.9995263709443" />
+      <point x="7451.34862840353" y="1560.9995263709443" />
+      <point x="-14.999964719827858" y="-27.00047362905562" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="26.99952637094438" />
+      <point x="7677.34862840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.results.ClassMetricsResults" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="TO_ONE">
+      <point x="3.528017259668559E-5" y="-116.50047362905565" />
+      <point x="8087.09862840353" y="425.2075263709444" />
+      <point x="2737.9956284035293" y="425.2075263709444" />
+      <point x="-9.4241953661367E-5" y="281.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CC" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="3.9743920433465973E-4" y="-27.00047362905562" />
+      <point x="6695.736628403529" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.core.metrics.projectlevel.ccr.CCR" relationship="GENERALIZATION">
+      <point x="164.0003686135051" y="-15.000473629055648" />
+      <point x="6831.39362840353" y="1937.9995263709443" />
+      <point x="6831.39362840353" y="1560.9995263709443" />
+      <point x="7451.34862840353" y="1560.9995263709443" />
+      <point x="-14.999964719827858" y="-27.00047362905562" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="-38.50047362905565" />
+      <point x="2390.5586284035294" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.CSVSnapshotExporter" target="org.surface.surface.results.ProjectMetricsResults" relationship="DEPENDENCY">
+      <point x="174.99994396660713" y="-4.7362905570480507E-4" />
+      <point x="8804.39362840353" y="3112.4995263709443" />
+      <point x="8804.39362840353" y="2846.7075263709444" />
+      <point x="8761.210628403529" y="2846.7075263709444" />
+      <point x="-74.12662306765287" y="149.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" relationship="CREATE">
+      <point x="-45.00026922746247" y="-38.5" />
+      <point x="-82.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="-14.999631386494912" y="-38.50047362905565" />
+      <point x="5834.515628403529" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.control.ProjectsControl" target="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" relationship="CREATE">
+      <point x="137.0" y="-15.000473629055705" />
+      <point x="7757.960684436923" y="3448.9995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.data.imports.SnapshotsImporter" target="org.surface.surface.data.bean.Snapshot" relationship="DEPENDENCY">
+      <point x="-128.50026090861957" y="-4.7362905570480507E-4" />
+      <point x="9287.39362840353" y="2730.4995263709443" />
+      <point x="9287.39362840353" y="2568.2075263709444" />
+      <point x="9316.52462840353" y="2568.2075263709444" />
+      <point x="-2.609086195661803E-4" y="93.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.MetricsFactory" relationship="REALIZATION">
+      <point x="-14.999602560795665" y="-38.500473629055705" />
+      <point x="7501.03662840353" y="3005.2075263709444" />
+      <point x="7732.34862840353" y="3005.2075263709444" />
+      <point x="3.528017214193824E-5" y="26.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.core.Surface" relationship="CREATE">
+      <point x="53.25" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.results.ProjectMetricsResults" relationship="CREATE">
+      <point x="154.49999999999955" y="15.0" />
+      <point x="8377.348593123357" y="3314.0" />
+      <point x="8377.348593123357" y="2297.9995263709443" />
+      <point x="-203.0" y="14.999526370944409" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ProjectAnalyzer" target="org.surface.surface.core.analysis.ClassifiedAnalyzer" relationship="CREATE">
+      <point x="-94.48736215903227" y="-38.5" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="org.surface.surface.core.Surface" target="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" relationship="CREATE">
+      <point x="83.0" y="15.0" />
+      <point x="8289.848593123357" y="3936.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cai.CAI" relationship="TO_ONE">
+      <point x="-76.0" y="44.999526370944295" />
+      <point x="578.5664181378488" y="2775.4995263709443" />
+      <point x="578.5664181378488" y="879.2075263709444" />
+      <point x="3717.9862309643254" y="879.2075263709444" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.SnapshotExporterFactory" target="org.surface.surface.data.exports.NullSnapshotExporter" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="-124.48709131356554" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" target="org.surface.surface.results.values.IntMetricValue" relationship="CREATE">
+      <point x="3.6861350531580683E-4" y="-38.50047362905565" />
+      <point x="5119.515628403529" y="1229.2075263709444" />
+      <point x="1443.3936284035294" y="1229.2075263709444" />
+      <point x="1443.3936284035294" y="955.9995263709443" />
+      <point x="-123.99963138649474" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMCached" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="GENERALIZATION">
+      <point x="-4.5640098596777534E-4" y="-38.50047362905559" />
+      <point x="1617.2326284035294" y="2156.2075263709444" />
+      <point x="2661.0586284035294" y="2156.2075263709444" />
+      <point x="2661.0586284035294" y="1664.9995263709443" />
+      <point x="3193.5586284035294" y="1664.9995263709443" />
+      <point x="-29.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.results.values.IntMetricValue" target="org.surface.surface.results.values.NumericMetricValue" relationship="GENERALIZATION">
+      <point x="3.686135052589634E-4" y="-27.00047362905559" />
+      <point x="3539.2656284035293" y="866.2075263709444" />
+      <point x="6036.515628403529" y="866.2075263709444" />
+      <point x="-14.999631386494912" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="164.0003686135051" y="-4.7362905564796165E-4" />
+      <point x="6784.39362840353" y="1952.9995263709443" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="38.49952637094435" />
+      <point x="6995.34862840353" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMECached" target="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" relationship="CREATE">
+      <point x="-45.00026922746247" y="-38.5" />
+      <point x="-82.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-163.99963138649468" y="-4.7362905564796165E-4" />
+      <point x="5664.39362840353" y="1952.9995263709443" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" relationship="CREATE">
+      <point x="78.73739743920441" y="-38.5" />
+      <point x="45.00003528017214" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="DEPENDENCY">
+      <point x="-135.4999647198283" y="-4.7362905570480507E-4" />
+      <point x="2560.7326284035294" y="3112.4995263709443" />
+      <point x="2560.7326284035294" y="2230.2075263709444" />
+      <point x="2616.0586284035294" y="2230.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="TO_ONE">
+      <point x="170.50040575804633" y="-4.7362905564796165E-4" />
+      <point x="2597.3936284035294" y="1952.9995263709443" />
+      <point x="2597.3936284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1605.4995263709443" />
+      <point x="-37.99959424195367" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" target="org.surface.surface.data.bean.Snapshot" relationship="DEPENDENCY">
+      <point x="3.528017259668559E-5" y="-49.500473629055705" />
+      <point x="8289.84862840353" y="2568.2075263709444" />
+      <point x="9316.52462840353" y="2568.2075263709444" />
+      <point x="-2.609086195661803E-4" y="93.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cc.CCCached" relationship="CREATE">
+      <point x="-79.5" y="-4.7362905570480507E-4" />
+      <point x="5035.28562840353" y="2730.4995263709443" />
+      <point x="14.999943966605997" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVA" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-42.99995640098547" y="-4.7362905561953994E-4" />
+      <point x="4143.39362840353" y="1605.4995263709443" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMECached" target="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" relationship="TO_ONE">
+      <point x="-30.000269227462468" y="-38.5" />
+      <point x="-67.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cce.CCECached" relationship="CREATE">
+      <point x="-79.5" y="-45.000473629055705" />
+      <point x="5811.652897630992" y="2685.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RP" target="org.surface.surface.results.values.BooleanMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999594241953673" y="-27.0" />
+      <point x="3480.0586284035294" y="1244.2075263709444" />
+      <point x="918.2456284035293" y="1244.2075263709444" />
+      <point x="110.99990575804577" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.core.metrics.classlevel.civa.CIVA" relationship="GENERALIZATION">
+      <point x="15.000405758046327" y="38.49952637094435" />
+      <point x="2875.5586284035294" y="2088.2075263709444" />
+      <point x="4228.17062840353" y="2088.2075263709444" />
+      <point x="4.3599014531992E-5" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CA" target="org.surface.surface.results.values.IntMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999594241953673" y="-27.00047362905562" />
+      <point x="2616.0586284035294" y="1496.2075263709444" />
+      <point x="3539.2656284035293" y="1496.2075263709444" />
+      <point x="3.686135052589634E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.ccva.CCVA" relationship="TO_ONE">
+      <point x="76.0" y="29.999526370944295" />
+      <point x="4072.8981844369227" y="2760.4995263709443" />
+      <point x="17.464961791440146" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999631386494684" y="38.49952637094435" />
+      <point x="5104.515628403529" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetric" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="-117.49996471982786" y="14.999526370944409" />
+      <point x="6784.39362840353" y="970.9995263709443" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.results.ClassMetricsResults" target="org.surface.surface.results.values.MetricValue" relationship="TO_MANY">
+      <point x="-147.4999647198274" y="-4.7362905564796165E-4" />
+      <point x="7790.39362840353" y="1952.9995263709443" />
+      <point x="7790.39362840353" y="80.9995263709443" />
+      <point x="101.49973909137998" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ProjectAnalyzer" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="109.00021026568038" y="-4.7362905570480507E-4" />
+      <point x="1800.3936284035294" y="3298.9995263709443" />
+      <point x="1800.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.results.ProjectMetricsResults" target="org.surface.surface.results.values.MetricValue" relationship="TO_MANY">
+      <point x="-202.99962306765246" y="-4.7362905559111823E-4" />
+      <point x="7790.39362840353" y="2282.9995263709443" />
+      <point x="7790.39362840353" y="80.9995263709443" />
+      <point x="101.49973909137998" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.civa.CIVACached" relationship="CREATE">
+      <point x="-38.1653704778746" y="-204.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.ProjectMetricsResultsExporter" target="org.surface.surface.data.exports.SnapshotExporterFactory" relationship="CREATE">
+      <point x="-179.5" y="-4.7362905570480507E-4" />
+      <point x="8875.16262840353" y="3463.9995263709443" />
+      <point x="-15.000169595054103" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" relationship="CREATE">
+      <point x="79.5" y="-15.000473629055705" />
+      <point x="6976.611230964325" y="2715.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.core.metrics.classlevel.cai.CAI" relationship="GENERALIZATION">
+      <point x="-45.00009424195355" y="-38.50047362905565" />
+      <point x="1955.2456284035295" y="1739.2075263709444" />
+      <point x="3732.9866284035293" y="1739.2075263709444" />
+      <point x="15.000397439204033" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" relationship="CREATE">
+      <point x="-44.99995640098592" y="-38.5" />
+      <point x="-88.95009424195365" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="DEPENDENCY">
+      <point x="15.000043599014091" y="-38.50047362905559" />
+      <point x="3663.9206284035295" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="1804.2075263709444" />
+      <point x="3208.5586284035294" y="1804.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMCached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="158.49954359901403" y="-4.7362905559111823E-4" />
+      <point x="1800.3936284035294" y="2282.9995263709443" />
+      <point x="1800.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CA" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.0575804632680956E-4" y="-27.00047362905562" />
+      <point x="2631.0586284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="TO_ONE">
+      <point x="-154.5" y="14.999526370944295" />
+      <point x="459.82862840352936" y="3313.9995263709443" />
+      <point x="-30.000427575287176" y="138.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="TO_ONE">
+      <point x="-30.000094241953548" y="-38.50047362905565" />
+      <point x="1970.2456284035295" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1605.4995263709443" />
+      <point x="-37.99959424195367" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.6861350508843316E-4" y="38.49952637094435" />
+      <point x="5849.515628403529" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="4.05758046383653E-4" y="-38.50047362905565" />
+      <point x="3244.5586284035294" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CAImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="14.999905758046225" y="38.49952637094435" />
+      <point x="1277.7456284035293" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPCached" target="org.surface.surface.core.metrics.classlevel.rp.RPImpl" relationship="TO_ONE">
+      <point x="-29.99978973431962" y="-38.5" />
+      <point x="-134.1790942419534" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cme.CMECached" relationship="CREATE">
+      <point x="-79.5" y="-60.000473629055705" />
+      <point x="6182.652897630992" y="2670.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMCached" target="org.surface.surface.core.metrics.classlevel.cm.CMImpl" relationship="CREATE">
+      <point x="-30.000456400985968" y="-38.5" />
+      <point x="-35.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCR" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="26.99952637094438" />
+      <point x="7451.34862840353" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CAImpl" target="org.surface.surface.results.values.IntMetricValue" relationship="CREATE">
+      <point x="158.49990575804622" y="-4.7362905564796165E-4" />
+      <point x="1443.3936284035294" y="1952.9995263709443" />
+      <point x="1443.3936284035294" y="955.9995263709443" />
+      <point x="-123.99963138649474" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVA" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.0575804683840033E-4" y="-27.00047362905562" />
+      <point x="4055.4336284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.core.metrics.ClassMetricsFactory" relationship="CREATE">
+      <point x="-154.5" y="29.999526370944295" />
+      <point x="2830.2235931233577" y="3328.9995263709443" />
+      <point x="-30.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="38.49952637094435" />
+      <point x="2860.5586284035294" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CACached" target="org.surface.surface.core.metrics.classlevel.ca.CAImpl" relationship="TO_ONE">
+      <point x="-45.00045640098597" y="-38.5" />
+      <point x="-50.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="26.99952637094438" />
+      <point x="7345.34862840353" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-14.999956400985909" y="-38.50047362905559" />
+      <point x="3633.9206284035295" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="15.000035280172142" y="38.49952637094435" />
+      <point x="7025.34862840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.core.metrics.classlevel.ccva.CCVA" relationship="GENERALIZATION">
+      <point x="-15.000456400985968" y="-38.50047362905559" />
+      <point x="2357.7326284035294" y="2064.2075263709444" />
+      <point x="4055.4336284035294" y="2064.2075263709444" />
+      <point x="4.0575804683840033E-4" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cmr.CMR" relationship="TO_ONE">
+      <point x="76.0" y="14.999526370944295" />
+      <point x="3976.9336284035294" y="2745.4995263709443" />
+      <point x="30.00040575804681" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-9.424195332030649E-5" y="38.49952637094435" />
+      <point x="888.2456284035293" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cm.CMCached" relationship="CREATE">
+      <point x="-76.0" y="-30.000473629055705" />
+      <point x="1617.2330848045153" y="2700.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.control.ProjectsControl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="4.4396660666734533E-4" y="-72.5004736290557" />
+      <point x="4202.398628403529" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="DEPENDENCY">
+      <point x="14.999543599014032" y="-38.50047362905559" />
+      <point x="2003.7326284035294" y="2230.2075263709444" />
+      <point x="2616.0586284035294" y="2230.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" relationship="TO_ONE">
+      <point x="79.5" y="116.20752637094438" />
+      <point x="7272.34862840353" y="2846.7075263709444" />
+      <point x="7272.34862840353" y="1620.4995263709443" />
+      <point x="-44.5" y="14.999526370944409" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="-44.49996471982786" y="-4.7362905561953994E-4" />
+      <point x="7198.39362840353" y="1605.4995263709443" />
+      <point x="7198.39362840353" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.civa.CIVA" relationship="DEPENDENCY">
+      <point x="45.0" y="38.5" />
+      <point x="2905.2235931233577" y="3268.0" />
+      <point x="4243.17062840353" y="3268.0" />
+      <point x="15.000043599014532" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.ClassMetricsFactory" relationship="INNER_CLASS">
+      <point x="-19.9999647198282" y="204.0" />
+      <point x="-29.9999647198282" y="-38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAI" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999602560795964" y="26.99952637094438" />
+      <point x="3702.9866284035293" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="119.3879439666066" y="-38.500473629055705" />
+      <point x="7877.34862840353" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CA" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="26.99952637094438" />
+      <point x="2631.0586284035294" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.NullSnapshotExporter" target="org.surface.surface.results.ProjectMetricsResults" relationship="DEPENDENCY">
+      <point x="-175.00026090861957" y="-4.7362905570480507E-4" />
+      <point x="8804.39362840353" y="3112.4995263709443" />
+      <point x="8804.39362840353" y="2846.7075263709444" />
+      <point x="8761.210628403529" y="2846.7075263709444" />
+      <point x="-74.12662306765287" y="149.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.core.metrics.classlevel.cma.CMA" relationship="GENERALIZATION">
+      <point x="170.50004359901408" y="-4.7362905559111823E-4" />
+      <point x="3884.3936284035294" y="2282.9995263709443" />
+      <point x="3884.3936284035294" y="1560.9995263709443" />
+      <point x="4348.808628403529" y="1560.9995263709443" />
+      <point x="-14.999594241953218" y="-27.00047362905562" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CME" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="26.99952637094438" />
+      <point x="7555.34862840353" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="38.49952637094435" />
+      <point x="7010.34862840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ClassifiedAnalyzer" target="org.surface.surface.core.analysis.ClassifiedPatterns" relationship="DEPENDENCY">
+      <point x="119.3206954923653" y="-94.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="3.528017214193824E-5" y="-27.00047362905562" />
+      <point x="7677.34862840353" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.Surface" target="org.surface.surface.core.SurfaceInput" relationship="TO_ONE">
+      <point x="-5.66666666666697" y="-38.5" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" relationship="GENERALIZATION">
+      <point x="15.000368613505316" y="38.49952637094435" />
+      <point x="5493.515628403529" y="2096.2075263709444" />
+      <point x="7390.34862840353" y="2096.2075263709444" />
+      <point x="30.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" target="org.surface.surface.data.imports.CSVSnapshotsImporter" relationship="CREATE">
+      <point x="171.5" y="29.999526370944295" />
+      <point x="9566.037797998584" y="3734.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.results.ClassMetricsResults" relationship="CREATE">
+      <point x="154.49999999999955" y="0.0" />
+      <point x="8057.09862840353" y="3299.0" />
+      <point x="-29.999964719827403" y="116.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="TO_ONE">
+      <point x="-75.9999647198282" y="-4.7362905570480507E-4" />
+      <point x="2597.3936284035294" y="2730.4995263709443" />
+      <point x="2597.3936284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1819.2075263709444" />
+      <point x="2405.5586284035294" y="1605.4995263709443" />
+      <point x="-37.99959424195367" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="-38.50047362905565" />
+      <point x="7010.34862840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="3.6861350531580683E-4" y="-38.50047362905565" />
+      <point x="5478.515628403529" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="TO_ONE">
+      <point x="170.50040575804638" y="-4.7362905564796165E-4" />
+      <point x="3437.3936284035294" y="1952.9995263709443" />
+      <point x="3437.3936284035294" y="1605.4995263709443" />
+      <point x="39.500405758046384" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CME" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="3.528017214193824E-5" y="-27.00047362905562" />
+      <point x="7570.34862840353" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CACached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-4.5640098596777534E-4" y="-38.50047362905559" />
+      <point x="1257.2326284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="DEPENDENCY">
+      <point x="-15.000269227462468" y="-38.50047362905559" />
+      <point x="6538.65262840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="1804.2075263709444" />
+      <point x="6680.736628403529" y="1804.2075263709444" />
+      <point x="-14.999602560795665" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ClassMetric" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="3.6861350520212E-4" y="38.49952637094441" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-9.424195377505384E-5" y="38.49952637094435" />
+      <point x="1622.7456284035293" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCE" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="GENERALIZATION">
+      <point x="41.00003528017214" y="-4.7362905561953994E-4" />
+      <point x="7198.39362840353" y="1605.4995263709443" />
+      <point x="7198.39362840353" y="1287.2075263709444" />
+      <point x="7227.34862840353" y="1287.2075263709444" />
+      <point x="3.528017214193824E-5" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.rp.RP" relationship="DEPENDENCY">
+      <point x="-135.5" y="14.999526370944295" />
+      <point x="563.5664181378488" y="3127.4995263709443" />
+      <point x="563.5664181378488" y="1214.2075263709444" />
+      <point x="3510.0586284035294" y="1214.2075263709444" />
+      <point x="15.000405758046355" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-170.50045640098597" y="-4.7362905559111823E-4" />
+      <point x="2187.3936284035294" y="2282.9995263709443" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" relationship="CREATE">
+      <point x="0.0" y="-160.0" />
+      <point x="18.570695492365303" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="DEPENDENCY">
+      <point x="-154.50005603339332" y="-4.7362905570480507E-4" />
+      <point x="7316.39362840353" y="3298.9995263709443" />
+      <point x="7316.39362840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="955.9995263709443" />
+      <point x="117.50003528017214" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMACached" target="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" relationship="TO_ONE">
+      <point x="-29.99995640098591" y="-38.5" />
+      <point x="-73.95009424195364" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-14.999602560795665" y="-38.50047362905559" />
+      <point x="6961.611628403529" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCR" relationship="GENERALIZATION">
+      <point x="-15.000269227462468" y="-38.50047362905559" />
+      <point x="5425.65262840353" y="2096.2075263709444" />
+      <point x="7390.34862840353" y="2096.2075263709444" />
+      <point x="30.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999631386494684" y="38.49952637094435" />
+      <point x="5463.515628403529" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="4448.515628403529" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.core.metrics.projectlevel.cce.CCE" relationship="GENERALIZATION">
+      <point x="29.999730772537532" y="-38.50047362905559" />
+      <point x="5841.65262840353" y="2198.2075263709444" />
+      <point x="6799.39362840353" y="2198.2075263709444" />
+      <point x="6799.39362840353" y="1620.4995263709443" />
+      <point x="-40.99996471982786" y="14.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.cma.CMA" relationship="DEPENDENCY">
+      <point x="-15.0" y="38.5" />
+      <point x="2845.2235931233577" y="3283.0" />
+      <point x="4393.808628403529" y="3283.0" />
+      <point x="30.00040575804678" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-9.424195354768017E-5" y="38.49952637094435" />
+      <point x="2000.2456284035295" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-14.999594241953673" y="38.49952637094435" />
+      <point x="3229.5586284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="26.99952637094438" />
+      <point x="7662.34862840353" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCE" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999964719827858" y="26.99952637094438" />
+      <point x="6989.84862840353" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CC" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.9743920433465973E-4" y="26.99952637094438" />
+      <point x="6695.736628403529" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.results.values.BooleanMetricValue" target="org.surface.surface.results.values.MetricValue" relationship="GENERALIZATION">
+      <point x="-9.42419542298012E-5" y="-27.00047362905559" />
+      <point x="807.2456284035293" y="832.2075263709444" />
+      <point x="7538.72462840353" y="832.2075263709444" />
+      <point x="-2.6090862002092763E-4" y="105.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="38.49952637094435" />
+      <point x="2390.5586284035294" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CM" target="org.surface.surface.results.values.IntMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999594241953673" y="-27.00047362905562" />
+      <point x="3208.5586284035294" y="1496.2075263709444" />
+      <point x="3539.2656284035293" y="1496.2075263709444" />
+      <point x="3.686135052589634E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="GENERALIZATION">
+      <point x="-14.999631386494684" y="-38.50047362905565" />
+      <point x="5104.515628403529" y="1715.2075263709444" />
+      <point x="6710.736628403529" y="1715.2075263709444" />
+      <point x="15.000397439204335" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-163.9996313864949" y="-4.7362905564796165E-4" />
+      <point x="6406.39362840353" y="1952.9995263709443" />
+      <point x="6406.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMR" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.057580468099786E-4" y="26.99952637094438" />
+      <point x="3946.9336284035294" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.ca.CACached" relationship="CREATE">
+      <point x="-76.0" y="-15.000473629055705" />
+      <point x="1257.2330848045153" y="2715.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" target="org.surface.surface.results.ProjectMetricsResults" relationship="DEPENDENCY">
+      <point x="171.5000352801726" y="-4.7362905570480507E-4" />
+      <point x="8688.84862840353" y="3704.4995263709443" />
+      <point x="8688.84862840353" y="3183.4995263709443" />
+      <point x="8804.39362840353" y="3183.4995263709443" />
+      <point x="8804.39362840353" y="2846.7075263709444" />
+      <point x="8761.210628403529" y="2846.7075263709444" />
+      <point x="-74.12662306765287" y="149.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" relationship="TO_ONE">
+      <point x="-30.000269227462468" y="-38.5" />
+      <point x="-67.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CC" target="org.surface.surface.results.values.IntMetricValue" relationship="DEPENDENCY">
+      <point x="-14.999602560795665" y="-27.00047362905562" />
+      <point x="6680.736628403529" y="1496.2075263709444" />
+      <point x="3539.2656284035293" y="1496.2075263709444" />
+      <point x="3.686135052589634E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" relationship="TO_ONE">
+      <point x="-14.9999647198282" y="-38.5" />
+      <point x="-4.999964719828199" y="204.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" relationship="CREATE">
+      <point x="-76.0" y="-93.5" />
+      <point x="2372.7330848045153" y="2637.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.MetricsFactory" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="-27.000473629055705" />
+      <point x="7732.34862840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAI" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="39.500397439204036" y="-4.7362905561953994E-4" />
+      <point x="3831.3936284035294" y="1605.4995263709443" />
+      <point x="3831.3936284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.results.ClassMetricsResults" target="org.surface.surface.results.MetricsResults" relationship="REALIZATION">
+      <point x="3.528017259668559E-5" y="116.49952637094441" />
+      <point x="8087.09862840353" y="2102.2075263709444" />
+      <point x="8426.84862840353" y="2102.2075263709444" />
+      <point x="3.528017259668559E-5" y="14.49952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" relationship="CREATE">
+      <point x="-140.5" y="14.999526370944295" />
+      <point x="6587.223593123357" y="3127.4995263709443" />
+      <point x="15.0" y="160.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" relationship="CREATE">
+      <point x="-30.000269227462468" y="-38.5" />
+      <point x="-67.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CM" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.0575804632680956E-4" y="-27.00047362905562" />
+      <point x="3223.5586284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" target="org.surface.surface.core.control.ProjectsControl" relationship="GENERALIZATION">
+      <point x="-14.999964719827403" y="-49.500473629055705" />
+      <point x="8274.84862840353" y="3601.2075263709444" />
+      <point x="4202.398628403529" y="3601.2075263709444" />
+      <point x="4.4396660666734533E-4" y="72.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.results.ProjectMetricsResults" target="org.surface.surface.results.MetricsResults" relationship="REALIZATION">
+      <point x="3.7693234753533034E-4" y="-149.5004736290556" />
+      <point x="8835.33762840353" y="2102.2075263709444" />
+      <point x="8426.84862840353" y="2102.2075263709444" />
+      <point x="3.528017259668559E-5" y="14.49952637094438" />
+    </edge>
+    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.core.SurfaceInput" relationship="DEPENDENCY">
+      <point x="74.5" y="0.0" />
+      <point x="3961.952759790024" y="4050.0" />
+      <point x="106.16666666666697" y="116.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" relationship="CREATE">
+      <point x="-45.00045640098597" y="-38.5" />
+      <point x="-56.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVA" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="45.50040575804684" y="-22.79247362905562" />
+      <point x="4143.39362840353" y="1582.7075263709444" />
+      <point x="4143.39362840353" y="1244.2075263709444" />
+      <point x="3655.7656284035293" y="1244.2075263709444" />
+      <point x="3655.7656284035293" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.control.RemoteSnapshotsProjectsControl" target="org.surface.surface.data.exports.ProjectMetricsResultsExporter" relationship="CREATE">
+      <point x="171.5" y="14.999526370944295" />
+      <point x="9157.202897630992" y="3719.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCCached" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="GENERALIZATION">
+      <point x="-70.27005603339398" y="-38.50047362905559" />
+      <point x="4950.015628403529" y="1715.2075263709444" />
+      <point x="6710.736628403529" y="1715.2075263709444" />
+      <point x="15.000397439204335" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cce.CCE" relationship="TO_ONE">
+      <point x="79.5" y="14.999526370944295" />
+      <point x="7242.34862840353" y="2745.4995263709443" />
+      <point x="7242.34862840353" y="1620.4995263709443" />
+      <point x="41.0" y="14.999526370944409" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVA" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.3599014531992E-5" y="-27.00047362905562" />
+      <point x="4228.17062840353" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" relationship="CREATE">
+      <point x="-44.99959424195367" y="-38.5" />
+      <point x="-93.49959424195367" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-14.999594241953673" y="-38.50047362905559" />
+      <point x="2797.0586284035294" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="DEPENDENCY">
+      <point x="107.33540575804636" y="-38.50047362905559" />
+      <point x="3346.3936284035294" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="2230.2075263709444" />
+      <point x="3465.5586284035294" y="1804.2075263709444" />
+      <point x="3208.5586284035294" y="1804.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.ccr.CCR" relationship="DEPENDENCY">
+      <point x="-79.68760256079577" y="-38.5" />
+      <point x="-29.999964719827858" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ClassMetric" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="-14.999631386494798" y="38.49952637094441" />
+      <point x="4433.515628403529" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="TO_ONE">
+      <point x="79.50003528017214" y="-4.7362905570480507E-4" />
+      <point x="7213.39362840353" y="2730.4995263709443" />
+      <point x="7213.39362840353" y="2133.2075263709444" />
+      <point x="6815.39362840353" y="2133.2075263709444" />
+      <point x="6815.39362840353" y="1605.4995263709443" />
+      <point x="38.000397439204335" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.SnapshotExporter" target="org.surface.surface.data.bean.Snapshot" relationship="DEPENDENCY">
+      <point x="174.9998304049459" y="-4.7362905570480507E-4" />
+      <point x="9287.39362840353" y="2730.4995263709443" />
+      <point x="9287.39362840353" y="2568.2075263709444" />
+      <point x="9316.52462840353" y="2568.2075263709444" />
+      <point x="-2.609086195661803E-4" y="93.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.data.imports.CSVSnapshotsImporter" target="org.surface.surface.data.bean.Snapshot" relationship="CREATE">
+      <point x="35.48709131356554" y="-38.5" />
+      <point x="9601.52488931215" y="2283.0" />
+      <point x="107.0" y="0.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVA" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-42.99995640098547" y="-22.79247362905562" />
+      <point x="4143.39362840353" y="1582.7075263709444" />
+      <point x="4143.39362840353" y="1244.2075263709444" />
+      <point x="3655.7656284035293" y="1244.2075263709444" />
+      <point x="3655.7656284035293" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.classlevel.ccva.CCVA" relationship="DEPENDENCY">
+      <point x="-60.0" y="38.5" />
+      <point x="2800.2235931233577" y="4106.0" />
+      <point x="9727.03762840353" y="4106.0" />
+      <point x="9727.03762840353" y="-57.000473629055705" />
+      <point x="4070.4336284035294" y="-57.000473629055705" />
+      <point x="15.000405758046838" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPImpl" target="org.surface.surface.results.values.BooleanMetricValue" relationship="CREATE">
+      <point x="14.99990575804668" y="-38.5" />
+      <point x="95.99990575804577" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMR" target="org.surface.surface.results.values.DoubleMetricValue" relationship="DEPENDENCY">
+      <point x="-14.99959424195319" y="26.99952637094438" />
+      <point x="3931.9336284035294" y="1655.2075263709444" />
+      <point x="4981.390628403529" y="1655.2075263709444" />
+      <point x="-14.999631386494684" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetricsCalculator" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="89.3879439666066" y="-38.500473629055705" />
+      <point x="7847.34862840353" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="135.5000352801718" y="-4.7362905570480507E-4" />
+      <point x="3050.3936284035294" y="3112.4995263709443" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.Metric" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="70.99973909137998" y="-44.50047362905559" />
+      <point x="6784.39362840353" y="580.4995263709443" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPCached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="2.1026568037996185E-4" y="-38.50047362905559" />
+      <point x="784.0666284035292" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" relationship="TO_ONE">
+      <point x="-30.000456400985968" y="-38.5" />
+      <point x="-41.513094241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-2.692274624678248E-4" y="-38.50047362905559" />
+      <point x="5440.65262840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" relationship="TO_ONE">
+      <point x="-59.99959424195367" y="-38.5" />
+      <point x="-108.49959424195367" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.Surface" target="org.surface.surface.core.control.SingleLocalProjectControl" relationship="CREATE">
+      <point x="83.0" y="0.0" />
+      <point x="4147.286093123357" y="3921.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCCached" target="org.surface.surface.core.metrics.projectlevel.cc.CCImpl" relationship="TO_ONE">
+      <point x="14.999943966605997" y="-38.5" />
+      <point x="-84.2296313864947" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.NullSnapshotExporter" target="org.surface.surface.data.bean.Snapshot" relationship="DEPENDENCY">
+      <point x="174.99973909138043" y="-4.7362905570480507E-4" />
+      <point x="9287.39362840353" y="3112.4995263709443" />
+      <point x="9287.39362840353" y="2568.2075263709444" />
+      <point x="9316.52462840353" y="2568.2075263709444" />
+      <point x="-2.609086195661803E-4" y="93.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="14.99990575804636" y="-38.50047362905565" />
+      <point x="3707.8706284035293" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="14.999730772537532" y="-38.50047362905559" />
+      <point x="6568.65262840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="14.999730772537532" y="-38.50047362905559" />
+      <point x="5455.65262840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="TO_ONE">
+      <point x="76.0000352801718" y="-4.7362905570480507E-4" />
+      <point x="3437.3936284035294" y="2730.4995263709443" />
+      <point x="3437.3936284035294" y="1605.4995263709443" />
+      <point x="39.500405758046384" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMECached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="14.999730772537532" y="-38.50047362905559" />
+      <point x="6197.65262840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.core.metrics.api.ProjectMetric" relationship="DEPENDENCY">
+      <point x="15.000368613505088" y="38.49952637094435" />
+      <point x="5864.515628403529" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="2073.2075263709444" />
+      <point x="7892.34862840353" y="955.9995263709443" />
+      <point x="117.50003528017214" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPImpl" target="org.surface.surface.core.metrics.classlevel.rp.RP" relationship="GENERALIZATION">
+      <point x="-9.424195332030649E-5" y="-38.50047362905565" />
+      <point x="888.2456284035293" y="1704.2075263709444" />
+      <point x="3480.0586284035294" y="1704.2075263709444" />
+      <point x="-14.999594241953616" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.core.metrics.classlevel.cm.CM" relationship="TO_ONE">
+      <point x="-170.50009424195363" y="-4.7362905564796165E-4" />
+      <point x="3437.3936284035294" y="1952.9995263709443" />
+      <point x="3437.3936284035294" y="1605.4995263709443" />
+      <point x="39.500405758046384" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.core.metrics.classlevel.cmr.CMR" relationship="GENERALIZATION">
+      <point x="15.000405758046384" y="-38.50047362905559" />
+      <point x="3254.0586284035294" y="2198.2075263709444" />
+      <point x="3961.9336284035294" y="2198.2075263709444" />
+      <point x="15.00040575804681" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="14.99990575804636" y="38.49952637094435" />
+      <point x="3707.8706284035293" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="TO_ONE">
+      <point x="-163.99996471982786" y="-4.7362905564796165E-4" />
+      <point x="6815.39362840353" y="1952.9995263709443" />
+      <point x="6815.39362840353" y="1605.4995263709443" />
+      <point x="38.000397439204335" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-14.999594241953673" y="-38.50047362905559" />
+      <point x="3224.0586284035294" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="14.999730772537532" y="-38.50047362905559" />
+      <point x="5826.65262840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCE" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.528017214193824E-5" y="26.99952637094438" />
+      <point x="7004.84862840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPCached" target="org.surface.surface.core.metrics.classlevel.rp.RP" relationship="GENERALIZATION">
+      <point x="-86.32078973431953" y="-38.50047362905559" />
+      <point x="697.7456284035293" y="1704.2075263709444" />
+      <point x="3480.0586284035294" y="1704.2075263709444" />
+      <point x="-14.999594241953616" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.core.metrics.projectlevel.cce.CCE" relationship="GENERALIZATION">
+      <point x="-67.86263138649474" y="38.49952637094435" />
+      <point x="5781.65262840353" y="2198.2075263709444" />
+      <point x="6799.39362840353" y="2198.2075263709444" />
+      <point x="6799.39362840353" y="1620.4995263709443" />
+      <point x="-40.99996471982786" y="14.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" relationship="CREATE">
+      <point x="35.500405758046384" y="-38.5" />
+      <point x="30.000405758046384" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="-14.999594241953673" y="-38.50047362905565" />
+      <point x="3229.5586284035294" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached" target="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" relationship="CREATE">
+      <point x="-45.00026922746247" y="-38.5" />
+      <point x="-82.86263138649474" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.ccr.CCR" relationship="TO_ONE">
+      <point x="79.5" y="131.20752637094438" />
+      <point x="7481.34862840353" y="2861.7075263709444" />
+      <point x="15.000035280172142" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.rp.RPCached" relationship="CREATE">
+      <point x="-76.0" y="14.999526370944295" />
+      <point x="784.0664181378488" y="2745.4995263709443" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ca.CACached" target="org.surface.surface.results.values.IntMetricValue" relationship="TO_ONE">
+      <point x="158.49954359901403" y="-4.7362905559111823E-4" />
+      <point x="1440.3936284035294" y="2282.9995263709443" />
+      <point x="1440.3936284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="940.9995263709443" />
+      <point x="-123.99963138649474" y="-15.000473629055591" />
+    </edge>
+    <edge source="org.surface.surface.results.ClassifiedAnalyzerResults" target="org.surface.surface.results.AnalyzerResults" relationship="REALIZATION">
+      <point x="-9.4241953661367E-5" y="-281.5004736290557" />
+      <point x="2737.9956284035293" y="-225.79247362905562" />
+      <point x="4131.56662840353" y="-225.79247362905562" />
+      <point x="7.242471360768832E-5" y="14.499526370944295" />
+    </edge>
+    <edge source="org.surface.surface.data.imports.CSVSnapshotsImporter" target="org.surface.surface.data.imports.SnapshotsImporter" relationship="REALIZATION">
+      <point x="-110.51290868643446" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.6861350508843316E-4" y="38.49952637094435" />
+      <point x="6591.515628403529" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="3.9743920433465973E-4" y="-38.50047362905559" />
+      <point x="6976.611628403529" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="164.0003686135051" y="-4.7362905564796165E-4" />
+      <point x="6406.39362840353" y="1952.9995263709443" />
+      <point x="6406.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory" target="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" relationship="CREATE">
+      <point x="-44.9999647198282" y="-38.5" />
+      <point x="-34.9999647198282" y="204.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="-9.424195364005072E-5" y="38.49952637094435" />
+      <point x="3692.8706284035293" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="15.000405758046327" y="-38.50047362905565" />
+      <point x="2405.5586284035294" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-4.5640098596777534E-4" y="-38.50047362905559" />
+      <point x="1988.7326284035294" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.api.ProjectMetric" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-117.49996471982786" y="-4.7362905559111823E-4" />
+      <point x="6406.39362840353" y="955.9995263709443" />
+      <point x="6406.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.data.exports.SnapshotExporterFactory" target="org.surface.surface.data.exports.SnapshotExporter" relationship="DEPENDENCY">
+      <point x="-1.695950541034108E-4" y="38.499526370944295" />
+      <point x="8890.16262840353" y="3391.2075263709444" />
+      <point x="9207.14962840353" y="3391.2075263709444" />
+      <point x="135.36183040494598" y="26.999526370944295" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ProjectAnalyzer" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="CREATE">
+      <point x="109.0" y="-16.0" />
+      <point x="474.82862840352936" y="3283.0" />
+      <point x="-15.000427575287176" y="138.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RPCached" target="org.surface.surface.results.values.BooleanMetricValue" relationship="TO_ONE">
+      <point x="-101.32078973431953" y="-38.5" />
+      <point x="-124.50009424195423" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" relationship="TO_ONE">
+      <point x="-30.0" y="160.0" />
+      <point x="6542.223593123357" y="3198.4995263709443" />
+      <point x="7907.34862840353" y="3198.4995263709443" />
+      <point x="7907.34862840353" y="1605.5" />
+      <point x="44.5" y="0.0" />
+    </edge>
+    <edge source="org.surface.surface.core.control.SingleLocalProjectControl" target="org.surface.surface.core.control.ProjectsControl" relationship="GENERALIZATION">
+      <point x="-4.647198277893949E-4" y="-61.500473629055705" />
+      <point x="4147.28562840353" y="3601.2075263709444" />
+      <point x="4202.398628403529" y="3601.2075263709444" />
+      <point x="4.4396660666734533E-4" y="72.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="-170.49959424195367" y="-4.7362905564796165E-4" />
+      <point x="3050.3936284035294" y="1952.9995263709443" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVAImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="4.0575804632680956E-4" y="-38.50047362905565" />
+      <point x="2860.5586284035294" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAI" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.974392040362318E-4" y="26.99952637094438" />
+      <point x="3717.9866284035293" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCECached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-2.692274624678248E-4" y="-38.50047362905559" />
+      <point x="5811.65262840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.cli.CLIParser" target="org.surface.surface.cli.CLIOptions" relationship="DEPENDENCY">
+      <point x="-41.66666666666697" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="164.00036861350532" y="-4.7362905564796165E-4" />
+      <point x="5664.39362840353" y="1952.9995263709443" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.ccr.CCRCached" target="org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl" relationship="TO_ONE">
+      <point x="52.86273077253736" y="-38.5" />
+      <point x="15.000368613505088" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.civa.CIVA" relationship="TO_ONE">
+      <point x="76.0" y="44.999526370944295" />
+      <point x="4187.398628403529" y="2775.4995263709443" />
+      <point x="-40.77195640098546" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cm.CMImpl" target="org.surface.surface.results.values.IntMetricValue" relationship="CREATE">
+      <point x="-158.50009424195378" y="-4.7362905564796165E-4" />
+      <point x="1443.3936284035294" y="1952.9995263709443" />
+      <point x="1443.3936284035294" y="955.9995263709443" />
+      <point x="-123.99963138649474" y="-4.7362905559111823E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.rp.RP" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="4.0575804635523127E-4" y="-27.00047362905562" />
+      <point x="3495.0586284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.classlevel.cma.CMA" relationship="TO_ONE">
+      <point x="76.0" y="177.5" />
+      <point x="4378.808628403529" y="2908.0" />
+      <point x="15.000405758046782" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" target="org.surface.surface.core.metrics.projectlevel.cme.CME" relationship="GENERALIZATION">
+      <point x="-14.999631386494912" y="38.49952637094435" />
+      <point x="6205.515628403529" y="2166.2075263709444" />
+      <point x="7585.34862840353" y="2166.2075263709444" />
+      <point x="15.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.analysis.ClassAnalyzer" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-1.2306765256653307E-4" y="61.49952637094441" />
+      <point x="15.149628403529277" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="2046.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMECached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-2.692274624678248E-4" y="-38.50047362905559" />
+      <point x="6182.65262840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRCached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="4.05758046383653E-4" y="-38.50047362905559" />
+      <point x="3239.0586284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMRImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="4.05758046383653E-4" y="38.49952637094435" />
+      <point x="3244.5586284035294" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.results.values.MetricValue" relationship="DEPENDENCY">
+      <point x="3.6861350508843316E-4" y="-38.50047362905565" />
+      <point x="5849.515628403529" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="1861.2075263709444" />
+      <point x="6784.39362840353" y="80.9995263709443" />
+      <point x="-101.50026090862002" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="DEPENDENCY">
+      <point x="3.9743920433465973E-4" y="-38.500473629055705" />
+      <point x="7516.03662840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="2230.2075263709444" />
+      <point x="7375.34862840353" y="1804.2075263709444" />
+      <point x="6680.736628403529" y="1804.2075263709444" />
+      <point x="-14.999602560795665" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAIImpl" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="-15.000094241953548" y="-38.50047362905565" />
+      <point x="1985.2456284035295" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="DEPENDENCY">
+      <point x="-15.000094241953633" y="-38.50047362905565" />
+      <point x="3677.8706284035293" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="1834.2075263709444" />
+      <point x="3050.3936284035294" y="899.9995263709443" />
+      <point x="4448.515628403529" y="899.9995263709443" />
+      <point x="3.6861350520212E-4" y="-38.50047362905559" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.civa.CIVACached" target="org.surface.surface.core.metrics.classlevel.ca.CA" relationship="DEPENDENCY">
+      <point x="15.000405758046327" y="-38.50047362905559" />
+      <point x="2827.0586284035294" y="2230.2075263709444" />
+      <point x="2616.0586284035294" y="2230.2075263709444" />
+      <point x="-14.999594241953673" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached" target="org.surface.surface.core.metrics.projectlevel.sccr.SCCR" relationship="GENERALIZATION">
+      <point x="164.00039743920433" y="-4.7362905559111823E-4" />
+      <point x="7194.39362840353" y="2282.9995263709443" />
+      <point x="7194.39362840353" y="1789.2075263709444" />
+      <point x="7692.34862840353" y="1789.2075263709444" />
+      <point x="15.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.projectlevel.cce.CCE" relationship="DEPENDENCY">
+      <point x="140.5" y="-15.000473629055705" />
+      <point x="7892.34862840353" y="3097.4995263709443" />
+      <point x="7892.34862840353" y="2297.9995263709443" />
+      <point x="7762.34862840353" y="2297.9995263709443" />
+      <point x="7762.34862840353" y="1244.2075263709444" />
+      <point x="7004.848593123357" y="1244.2075263709444" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cmr.CMR" target="org.surface.surface.core.metrics.api.ClassMetric" relationship="GENERALIZATION">
+      <point x="-42.99959424195319" y="-4.7362905561953994E-4" />
+      <point x="3831.3936284035294" y="1605.4995263709443" />
+      <point x="3831.3936284035294" y="1412.2075263709444" />
+      <point x="4463.515628403529" y="1412.2075263709444" />
+      <point x="15.000368613505202" y="38.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCCached" target="org.surface.surface.results.ProjectAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-5.6033394002952264E-5" y="-38.50047362905559" />
+      <point x="5020.28562840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2150.2075263709444" />
+      <point x="5664.39362840353" y="2019.2075263709444" />
+      <point x="489.82862840352936" y="2019.2075263709444" />
+      <point x="-4.275752871762961E-4" y="138.4995263709444" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cai.CAICached" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-170.50045640098597" y="-4.7362905559111823E-4" />
+      <point x="1800.3936284035294" y="2282.9995263709443" />
+      <point x="1800.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="2182.2075263709444" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" relationship="TO_ONE">
+      <point x="-30.000456400985968" y="-38.5" />
+      <point x="-47.825594241953695" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMEImpl" target="org.surface.surface.results.values.DoubleMetricValue" relationship="CREATE">
+      <point x="3.6861350508843316E-4" y="-38.50047362905565" />
+      <point x="6220.515628403529" y="1888.2075263709444" />
+      <point x="4996.390628403529" y="1888.2075263709444" />
+      <point x="3.6861350531580683E-4" y="26.99952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVA" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="45.50040575804684" y="-4.7362905561953994E-4" />
+      <point x="4143.39362840353" y="1605.4995263709443" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl" target="org.surface.surface.results.ClassifiedAnalyzerResults" relationship="DEPENDENCY">
+      <point x="-170.49959424195367" y="-4.7362905564796165E-4" />
+      <point x="2187.3936284035294" y="1952.9995263709443" />
+      <point x="2187.3936284035294" y="80.9995263709443" />
+      <point x="-248.50009424195355" y="-4.7362905570480507E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" target="org.surface.surface.core.metrics.projectlevel.cme.CME" relationship="TO_ONE">
+      <point x="79.5" y="146.20752637094438" />
+      <point x="7600.34862840353" y="2876.7075263709444" />
+      <point x="30.000035280172142" y="27.0" />
+    </edge>
+    <edge source="org.surface.surface.core.control.ProjectsControl" target="org.surface.surface.core.analysis.ProjectAnalyzer" relationship="CREATE">
+      <point x="-137.0" y="0.0" />
+      <point x="95.31641813784881" y="3464.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cme.CMECached" target="org.surface.surface.core.metrics.projectlevel.cme.CME" relationship="GENERALIZATION">
+      <point x="-15.000269227462468" y="-38.50047362905559" />
+      <point x="6167.65262840353" y="2166.2075263709444" />
+      <point x="7585.34862840353" y="2166.2075263709444" />
+      <point x="15.000035280172142" y="26.99952637094438" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cce.CCEImpl" target="org.surface.surface.core.metrics.projectlevel.cc.CC" relationship="TO_ONE">
+      <point x="-52.86263138649474" y="38.49952637094435" />
+      <point x="5796.65262840353" y="2133.2075263709444" />
+      <point x="6815.39362840353" y="2133.2075263709444" />
+      <point x="6815.39362840353" y="1605.4995263709443" />
+      <point x="38.000397439204335" y="-4.7362905561953994E-4" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.ccva.CCVACached" target="org.surface.surface.results.values.DoubleMetricValue" relationship="TO_ONE">
+      <point x="-4.5640098596777534E-4" y="-38.50047362905559" />
+      <point x="2372.7326284035294" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="2214.2075263709444" />
+      <point x="4479.39362840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="3354.9995263709443" />
+      <point x="9712.03762840353" y="-42.000473629055705" />
+      <point x="4996.390628403529" y="-42.000473629055705" />
+      <point x="3.6861350531580683E-4" y="-27.00047362905559" />
+    </edge>
+    <edge source="org.surface.surface.results.values.NumericMetricValue" target="org.surface.surface.results.values.MetricValue" relationship="GENERALIZATION">
+      <point x="3.6861350508843316E-4" y="26.99952637094441" />
+      <point x="6051.515628403529" y="832.2075263709444" />
+      <point x="7538.72462840353" y="832.2075263709444" />
+      <point x="-2.6090862002092763E-4" y="105.4995263709443" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl" target="org.surface.surface.core.metrics.api.Metric" relationship="DEPENDENCY">
+      <point x="3.6861350531580683E-4" y="38.49952637094435" />
+      <point x="5478.515628403529" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="2118.2075263709444" />
+      <point x="4143.39362840353" y="1774.2075263709444" />
+      <point x="5741.974628403529" y="1774.2075263709444" />
+      <point x="-2.609086202483013E-4" y="94.49952637094441" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.ProjectMetricsFactory" target="org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure" relationship="TO_ONE">
+      <point x="-140.5" y="-15.000473629055705" />
+      <point x="6602.223593123357" y="3097.4995263709443" />
+      <point x="30.0" y="160.0" />
+    </edge>
+    <edge source="org.surface.surface.results.ProjectMetricsResults" target="org.surface.surface.results.ClassMetricsResults" relationship="TO_MANY">
+      <point x="-203.0" y="-100.79247362905562" />
+      <point x="8072.09862840353" y="2182.2075263709444" />
+      <point x="-14.999964719827403" y="116.5" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.classlevel.cma.CMAImpl" target="org.surface.surface.core.metrics.classlevel.cma.CMA" relationship="GENERALIZATION">
+      <point x="170.49990575804637" y="-4.7362905564796165E-4" />
+      <point x="3884.3936284035294" y="1952.9995263709443" />
+      <point x="3884.3936284035294" y="1560.9995263709443" />
+      <point x="4348.808628403529" y="1560.9995263709443" />
+      <point x="-14.999594241953218" y="-27.00047362905562" />
+    </edge>
+    <edge source="org.surface.surface.core.metrics.projectlevel.cc.CCCached" target="org.surface.surface.results.values.IntMetricValue" relationship="TO_ONE">
+      <point x="-5.6033394002952264E-5" y="38.49952637094441" />
+      <point x="5020.28562840353" y="2338.9995263709443" />
+      <point x="1440.3936284035294" y="2338.9995263709443" />
+      <point x="1440.3936284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="2160.2075263709444" />
+      <point x="1081.2326284035294" y="940.9995263709443" />
+      <point x="-123.99963138649474" y="-15.000473629055591" />
+    </edge>
+    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.cli.CLIParser" relationship="CREATE">
+      <point x="-57.25" y="-38.5" />
+      <point x="89.5" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7450580596923828" showDependencies="true" x="4001.6933990400003" y="3863.1650816" />
+  <SelectedNodes>
+    <node>org.surface.surface.core.metrics.ProjectMetricsFactory</node>
+    <node>org.surface.surface.core.metrics.classlevel.cmr.CMRImpl</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cscr.CSCRImpl</node>
+    <node>org.surface.surface.core.metrics.classlevel.cm.CMImpl</node>
+    <node>org.surface.surface.core.metrics.api.ProjectMetric</node>
+    <node>org.surface.surface.results.values.NumericMetricValue</node>
+    <node>org.surface.surface.results.ClassMetricsResults</node>
+    <node>org.surface.surface.core.metrics.MetricsFactory</node>
+    <node>org.surface.surface.core.analysis.ClassifiedAnalyzer</node>
+    <node>org.surface.surface.results.values.BooleanMetricValue</node>
+    <node>org.surface.surface.core.control.RemoteSnapshotsProjectsControl</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cce.CCEImpl</node>
+    <node>org.surface.surface.data.exports.SnapshotExporterFactory</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cc.CCImpl</node>
+    <node>org.surface.surface.CLIStarter</node>
+    <node>org.surface.surface.core.metrics.classlevel.ca.CACached</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cme.CME</node>
+    <node>org.surface.surface.data.exports.CSVSnapshotExporter</node>
+    <node>org.surface.surface.core.analysis.ClassifiedPatterns</node>
+    <node>org.surface.surface.core.metrics.classlevel.rp.RPImpl</node>
+    <node>org.surface.surface.cli.CLIParser</node>
+    <node>org.surface.surface.core.metrics.classlevel.cma.CMA</node>
+    <node>org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure</node>
+    <node>org.surface.surface.core.analysis.ClassAnalyzer</node>
+    <node>org.surface.surface.core.metrics.classlevel.cm.CM</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cme.CMECached</node>
+    <node>org.surface.surface.results.values.DoubleMetricValue</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cce.CCECached</node>
+    <node>org.surface.surface.data.imports.SnapshotsImporter</node>
+    <node>org.surface.surface.core.metrics.classlevel.cai.CAIImpl</node>
+    <node>org.surface.surface.core.metrics.projectlevel.ccr.CCR</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cscr.CSCR</node>
+    <node>org.surface.surface.core.metrics.classlevel.cai.CAICached</node>
+    <node>org.surface.surface.core.analysis.ProjectAnalyzer</node>
+    <node>org.surface.surface.core.metrics.classlevel.cmr.CMR</node>
+    <node>org.surface.surface.core.metrics.classlevel.rp.RPCached</node>
+    <node>org.surface.surface.core.metrics.api.Metric</node>
+    <node>org.surface.surface.core.metrics.classlevel.ca.CA</node>
+    <node>org.surface.surface.results.values.MetricValue</node>
+    <node>org.surface.surface.core.metrics.classlevel.cmr.CMRCached</node>
+    <node>org.surface.surface.core.metrics.classlevel.ccva.CCVA</node>
+    <node>org.surface.surface.core.metrics.classlevel.civa.CIVA</node>
+    <node>org.surface.surface.core.metrics.projectlevel.sccr.SCCRCached</node>
+    <node>org.surface.surface.core.metrics.classlevel.ccva.CCVAImpl</node>
+    <node>org.surface.surface.core.metrics.classlevel.civa.CIVACached</node>
+    <node>org.surface.surface.core.metrics.classlevel.ca.CAImpl</node>
+    <node>org.surface.surface.core.control.ProjectsControl</node>
+    <node>org.surface.surface.results.values.IntMetricValue</node>
+    <node>org.surface.surface.data.exports.ProjectMetricsResultsExporter</node>
+    <node>org.surface.surface.core.metrics.classlevel.ccva.CCVACached</node>
+    <node>org.surface.surface.data.imports.CSVSnapshotsImporter</node>
+    <node>org.surface.surface.results.ClassifiedAnalyzerResults</node>
+    <node>org.surface.surface.results.ProjectMetricsResults</node>
+    <node>org.surface.surface.data.exports.NullSnapshotExporter</node>
+    <node>org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl</node>
+    <node>org.surface.surface.core.metrics.projectlevel.ccr.CCRCached</node>
+    <node>org.surface.surface.core.metrics.classlevel.rp.RP</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cc.CCCached</node>
+    <node>org.surface.surface.core.metrics.classlevel.cai.CAI</node>
+    <node>org.surface.surface.results.ProjectAnalyzerResults</node>
+    <node>org.surface.surface.core.Surface</node>
+    <node>org.surface.surface.data.exports.SnapshotExporter</node>
+    <node>org.surface.surface.core.metrics.classlevel.cma.CMACached</node>
+    <node>org.surface.surface.core.metrics.classlevel.cm.CMCached</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cce.CCE</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cscr.CSCRCached</node>
+    <node>org.surface.surface.cli.CLIOptions</node>
+    <node>org.surface.surface.core.metrics.projectlevel.ccr.CCRImpl</node>
+    <node>org.surface.surface.core.control.SingleLocalProjectControl</node>
+    <node>org.surface.surface.results.AnalyzerResults</node>
+    <node>org.surface.surface.core.metrics.classlevel.civa.CIVAImpl</node>
+    <node>org.surface.surface.results.MetricsResults</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cme.CMEImpl</node>
+    <node>org.surface.surface.core.metrics.ClassMetricsFactory.MetricsStructure</node>
+    <node>org.surface.surface.core.metrics.api.ProjectMetricsCalculator</node>
+    <node>org.surface.surface.core.metrics.api.ClassMetric</node>
+    <node>org.surface.surface.data.bean.Snapshot</node>
+    <node>org.surface.surface.core.metrics.classlevel.cma.CMAImpl</node>
+    <node>org.surface.surface.core.SurfaceInput</node>
+    <node>org.surface.surface.core.metrics.projectlevel.sccr.SCCR</node>
+    <node>org.surface.surface.core.metrics.ClassMetricsFactory</node>
+    <node>org.surface.surface.core.metrics.projectlevel.cc.CC</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
