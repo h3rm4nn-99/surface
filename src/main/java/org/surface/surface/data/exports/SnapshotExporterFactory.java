@@ -6,6 +6,7 @@ public class SnapshotExporterFactory {
         switch (exportFormat) {
             case CSVSnapshotExporter.CODE:
                 return new CSVSnapshotExporter();
+                //TODO: Aggiungere il JSONExporter
             default:
                 return new NullSnapshotExporter();
         }

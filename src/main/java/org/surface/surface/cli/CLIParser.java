@@ -10,6 +10,7 @@ import org.surface.surface.core.SurfaceInput;
 import java.util.Arrays;
 
 public class CLIParser {
+    //TODO: Crea interfaccia o classe astratta Parser e implementala/estendila
 
     // List of default metrics
     private static final String[] DEFAULT_METRICS = new String[]{"CA", "CM"};

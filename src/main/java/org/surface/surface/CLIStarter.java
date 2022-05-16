@@ -6,6 +6,7 @@ import org.surface.surface.core.Surface;
 import org.surface.surface.core.SurfaceInput;
 
 public class CLIStarter {
+    //TODO: Rinomina in Starter e usa il pattern Factory per il parser da usare
     public static void main(String[] args) {
         CLIParser cliParser = new CLIParser();
         SurfaceInput surfaceInput = null;

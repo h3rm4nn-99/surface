@@ -7,5 +7,6 @@ import java.nio.file.Path;
 import java.util.List;
 
 public interface SnapshotsImporter {
+    //TODO: Aggiungere JSONImporter
     List<Snapshot> extractSnapshots(Path fileToRead) throws IOException;
 }
