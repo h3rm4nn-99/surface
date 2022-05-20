@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CLIStarter Remote" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.surface.surface.CLIStarter" />
+    <module name="surface" />
+    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -remoteProjects snapshots.csv -export csv" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.surface.surface.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
