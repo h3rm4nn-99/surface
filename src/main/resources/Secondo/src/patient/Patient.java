@@ -5,12 +5,12 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+import java.lang.reflect;
 @Entity
 @Table(name = "paziente")
 public class Patient {
   @Id
-  private String cf;
+  private String socialSecurityNumber;
 
   @Column
   private String username;
@@ -19,10 +19,10 @@ public class Patient {
   private String password;
 
   @Column
-  private String mail;
+  private String email;
 
   @Column
-  private String telefono;
+  private String phoneNumber;
 
   @Column(name = "isinterno")
   private Boolean isInterno;
@@ -43,15 +43,15 @@ public class Patient {
   /**
    * Permette di ottenere un paziente in base alle sue informazioni principali.
    *
-   * @param cf il codice fiscale del paziente
+   * @param socialSecurityNumber il codice fiscale del paziente
    *
    * @param username lo username per accedere alla piattaforma
    *
    * @param password la password per accedere alla piattaforma
    *
-   * @param mail la mail associata al paziente
+   * @param email la mail associata al paziente
    *
-   * @param telefono il telefono associato al paziente
+   * @param phoneNumber il telefono associato al paziente
    *
    * @param isInterno true se il paziente e' interno, false altrimenti
    *
@@ -61,14 +61,14 @@ public class Patient {
    *
    * @param cognome il cognome del paziente
    */
-  public Patient(String cf, String username, String password, String mail,
-                 String telefono, Boolean isInterno, String indirizzo,
+  public Patient(String socialSecurityNumber, String username, String password, String email,
+                 String phoneNumber, Boolean isInterno, String indirizzo,
                  String nome, String cognome) {
-    this.cf = cf;
+    this.socialSecurityNumber = socialSecurityNumber;
     this.username = username;
     this.password = password;
-    this.mail = mail;
-    this.telefono = telefono;
+    this.email = email;
+    this.phoneNumber = phoneNumber;
     this.isInterno = isInterno;
     this.indirizzo = indirizzo;
     this.nome = nome;
@@ -80,17 +80,17 @@ public class Patient {
    *
    * @return il codice fiscale del paziente
    */
-  public String getCf() {
-    return cf;
+  public String getSocialSecurityNumber() {
+    return socialSecurityNumber;
   }
 
   /**
    * Permette di impostare il codice fiscale al paziente.
    *
-   * @param cf il codice fiscale da impostare
+   * @param socialSecurityNumber il codice fiscale da impostare
    */
-  public void setCf(String cf) {
-    this.cf = cf;
+  public void setSocialSecurityNumber(String socialSecurityNumber) {
+    this.socialSecurityNumber = socialSecurityNumber;
   }
 
   /**
@@ -134,17 +134,17 @@ public class Patient {
    *
    * @return la mail associata al paziente
    */
-  public String getMail() {
-    return mail;
+  public String getEmail() {
+    return email;
   }
 
   /**
    * Permette di associare una mail al paziente.
    *
-   * @param mail la mail da associare
+   * @param email la mail da associare
    */
-  public void setMail(String mail) {
-    this.mail = mail;
+  public void setEmail(String email) {
+    this.email = email;
   }
 
   /**
@@ -152,17 +152,17 @@ public class Patient {
    *
    * @return il numero di telefono associato
    */
-  public String getTelefono() {
-    return telefono;
+  public String getPhoneNumber() {
+    return phoneNumber;
   }
 
   /**
    * Permette di associare un numero di telefono al paziente.
    *
-   * @param telefono un numero di telefono da associare al paziente
+   * @param phoneNumber un numero di telefono da associare al paziente
    */
-  public void setTelefono(String telefono) {
-    this.telefono = telefono;
+  public void setPhoneNumber(String phoneNumber) {
+    this.phoneNumber = phoneNumber;
   }
 
   /**
@@ -246,11 +246,11 @@ public class Patient {
       return false;
     }
     Patient patient = (Patient) o;
-    return Objects.equals(cf, patient.cf)
+    return Objects.equals(socialSecurityNumber, patient.socialSecurityNumber)
             && Objects.equals(username, patient.username)
             && Objects.equals(password, patient.password)
-            && Objects.equals(mail, patient.mail)
-            && Objects.equals(telefono, patient.telefono)
+            && Objects.equals(email, patient.email)
+            && Objects.equals(phoneNumber, patient.phoneNumber)
             && Objects.equals(isInterno, patient.isInterno)
             && Objects.equals(indirizzo, patient.indirizzo)
             && Objects.equals(nome, patient.nome)
@@ -259,18 +259,18 @@ public class Patient {
 
   @Override
   public int hashCode() {
-    return Objects.hash(cf, username, password, mail, telefono,
+    return Objects.hash(socialSecurityNumber, username, password, email, phoneNumber,
             isInterno, indirizzo, nome, cognome);
   }
 
   @Override
   public String toString() {
     return "Patient{"
-            + "cf='" + cf + '\''
+            + "cf='" + socialSecurityNumber + '\''
             + ", username='" + username + '\''
             + ", password='" + password + '\''
-            + ", mail='" + mail + '\''
-            + ", telefono='" + telefono + '\''
+            + ", mail='" + email + '\''
+            + ", telefono='" + phoneNumber + '\''
             + ", isInterno=" + isInterno
             + ", indirizzo='" + indirizzo + '\''
             + ", nome='" + nome + '\''

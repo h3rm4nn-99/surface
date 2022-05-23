@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "agente_sanitario")
 public class HealthWorker {
   @Id
-  private String cf;
+  private String social_security_number;
   @Column
   private String username;
   @Column
@@ -19,7 +19,7 @@ public class HealthWorker {
   @Column
   private String mail;
   @Column
-  private String telefono;
+  private String phone_number;
   @Column
   private String ruolo;
   @Column
@@ -31,14 +31,14 @@ public class HealthWorker {
   @Column
   private int idstruttura;
 
-  public HealthWorker(String cf, String username, String password,
-                      String mail, String telefono, String ruolo, String cognome,
+  public HealthWorker(String social_security_number, String username, String password,
+                      String mail, String phone_number, String ruolo, String cognome,
                       String nome, String indirizzo, int idstruttura) {
-    this.cf = cf;
+    this.social_security_number = social_security_number;
     this.username = username;
     this.password = password;
     this.mail = mail;
-    this.telefono = telefono;
+    this.phone_number = phone_number;
     this.ruolo = ruolo;
     this.cognome = cognome;
     this.nome = nome;
@@ -46,12 +46,12 @@ public class HealthWorker {
     this.idstruttura = idstruttura;
   }
 
-  public String getCf() {
-    return cf;
+  public String getSocial_security_number() {
+    return social_security_number;
   }
 
-  public void setCf(String cf) {
-    this.cf = cf;
+  public void setSocial_security_number(String social_security_number) {
+    this.social_security_number = social_security_number;
   }
 
   public String getUsername() {
@@ -78,12 +78,12 @@ public class HealthWorker {
     this.mail = mail;
   }
 
-  public String getTelefono() {
-    return telefono;
+  public String getPhone_number() {
+    return phone_number;
   }
 
-  public void setTelefono(String telefono) {
-    this.telefono = telefono;
+  public void setPhone_number(String phone_number) {
+    this.phone_number = phone_number;
   }
 
   public String getRuolo() {
@@ -131,12 +131,12 @@ public class HealthWorker {
   @Override
   public String toString() {
     return "HealthWorker [cf=" 
-      + cf + ", cognome=" + cognome 
+      + social_security_number + ", cognome=" + cognome
       + ", idstruttura=" + idstruttura + ", indirizzo="
       + indirizzo + ", mail=" 
       + mail + ", nome=" + nome + ", password=" + password 
       + ", ruolo=" + ruolo
-      + ", telefono=" + telefono + ", username=" + username + "]";
+      + ", telefono=" + phone_number + ", username=" + username + "]";
   }
 
   @Override
@@ -149,11 +149,11 @@ public class HealthWorker {
     }
     HealthWorker that = (HealthWorker) o;
     return idstruttura == that.idstruttura
-            && Objects.equals(cf, that.cf)
+            && Objects.equals(social_security_number, that.social_security_number)
             && Objects.equals(username, that.username)
             && Objects.equals(password, that.password)
             && Objects.equals(mail, that.mail)
-            && Objects.equals(telefono, that.telefono)
+            && Objects.equals(phone_number, that.phone_number)
             && Objects.equals(ruolo, that.ruolo)
             && Objects.equals(cognome, that.cognome)
             && Objects.equals(nome, that.nome)
@@ -162,7 +162,7 @@ public class HealthWorker {
 
   @Override
   public int hashCode() {
-    return Objects.hash(cf, username, password, mail, telefono,
+    return Objects.hash(social_security_number, username, password, mail, phone_number,
             ruolo, cognome, nome, indirizzo, idstruttura);
   }
 }
