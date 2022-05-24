@@ -15,8 +15,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-
- * Modella l'entità Autore composta de nome, cognome e ha una relazione 
+/*
+ * Modella l'entità Autore composta de nome, cognome e ha una relazione
  * @ManyToMany con l'entità Libro.
  */
 @Entity

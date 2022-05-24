@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
-
+/*
  * Modella l'entità Locazione composta da scompartimento, locazione e ha 
  * una relazione @OneToOne con l'entità Libro.
  */
