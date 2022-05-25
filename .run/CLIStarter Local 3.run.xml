@@ -2,7 +2,7 @@
   <configuration default="false" name="CLIStarter Local 3" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="org.surface.surface.CLIStarter" />
     <module name="surface" />
-    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,RP,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -project src/main/resources/Terzo  -export csv" />
+    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,RP,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -project src/main/resources/IGESThirdTest  -export csv" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
