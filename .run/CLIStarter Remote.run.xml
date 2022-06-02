@@ -2,7 +2,7 @@
   <configuration default="false" name="CLIStarter Remote" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="org.surface.surface.CLIStarter" />
     <module name="surface" />
-    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -remoteProjects snapshots.csv -export csv" />
+    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,CMR,CAI,RP,CC,CCR,CCE,CME,CSCR,SCCR -remoteProjects snapshots2.csv -export csv" />
     <extension name="coverage" sample_coverage="false">
       <pattern>
         <option name="PATTERN" value="org.surface.surface.*" />
