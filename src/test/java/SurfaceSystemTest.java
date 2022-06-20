@@ -228,7 +228,7 @@ public class SurfaceSystemTest extends TestCase {
     }
 
     public void testFirstLocalProject() {
-        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/Terzo"));
+        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/IGESThirdTest"));
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(byteArrayOutputStream));
         singleLocalProjectControl.run();
@@ -246,7 +246,7 @@ public class SurfaceSystemTest extends TestCase {
             }
         }
         String oracle1 = "* Printing Project Metrics\n" +
-                "Project: Terzo\n" +
+                "Project: IGESThirdTest\n" +
                 "CC = 0\n" +
                 "CCR = 0.0\n" +
                 "CCE = 0.0\n" +
@@ -273,7 +273,7 @@ public class SurfaceSystemTest extends TestCase {
     }
 
     public void testSecondLocalProject() {
-        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/Quarto"));
+        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/IGESFourthTest"));
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(byteArrayOutputStream));
         singleLocalProjectControl.run();
@@ -292,7 +292,7 @@ public class SurfaceSystemTest extends TestCase {
         }
 
         String oracle1 = "* Printing Project Metrics\n" +
-                "Project: Quarto\n" +
+                "Project: IGESFourthTest\n" +
                 "CC = 1\n" +
                 "CCR = 0.3333333333333333\n" +
                 "CCE = 1.0\n" +
@@ -343,7 +343,7 @@ public class SurfaceSystemTest extends TestCase {
     }
 
     public void testThirdLocalProject(){
-        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/Quinto"));
+        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/IGESFifthTest"));
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(byteArrayOutputStream));
         singleLocalProjectControl.run();
@@ -361,7 +361,7 @@ public class SurfaceSystemTest extends TestCase {
             }
         }
         String oracle1 = "* Printing Project Metrics\n" +
-                "Project: Quinto\n" +
+                "Project: IGESFifthTest\n" +
                 "CC = 1\n" +
                 "CCR = 0.5\n" +
                 "CCE = 1.0\n" +
@@ -398,7 +398,7 @@ public class SurfaceSystemTest extends TestCase {
     }
 
     public void testFourthLocalProject(){
-        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/Sesto"));
+        SingleLocalProjectControl singleLocalProjectControl = new SingleLocalProjectControl(metricsCode, Paths.get("src/main/resources/IGESSixthTest"));
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(byteArrayOutputStream));
         singleLocalProjectControl.run();
@@ -416,14 +416,13 @@ public class SurfaceSystemTest extends TestCase {
             }
         }
         String oracle1 = "* Printing Project Metrics\n" +
-                "Project: Sesto\n" +
-                "CC = 7\n" +
-                "CCR = 0.25925925925925924\n" +
+                "Project: IGESSixthTest\n" +
+                "CC = 9\n" +
+                "CCR = 0.3103448275862069\n" +
                 "CCE = 1.0\n" +
                 "CME = 1.0\n" +
                 "CSCR = 0.0\n" +
-                "SCCR = 0.7142857142857143";
-
+                "SCCR = 0.5555555555555556";
         String oracle2 = "Class: CaseEditriciServiceImpl\n" +
                 "CA = 0\n" +
                 "CM = 0\n" +
