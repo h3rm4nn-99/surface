@@ -1,0 +1,194 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CSVSnapshotExporter</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.surface.surface.data.exports</a>
+</div>
+
+<h1>Coverage Summary for Class: CSVSnapshotExporter (org.surface.surface.data.exports)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CSVSnapshotExporter</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (8/10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    96,8%
+  </span>
+  <span class="absValue">
+    (30/31)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package org.surface.surface.data.exports;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.apache.commons.csv.CSVFormat;
+<i class="no-highlight">4</i>&nbsp;import org.apache.commons.csv.CSVPrinter;
+<i class="no-highlight">5</i>&nbsp;import org.surface.surface.data.bean.Snapshot;
+<i class="no-highlight">6</i>&nbsp;import org.surface.surface.results.ProjectMetricsResults;
+<i class="no-highlight">7</i>&nbsp;import org.surface.surface.results.values.MetricValue;
+<i class="no-highlight">8</i>&nbsp;import org.surface.surface.results.values.NumericMetricValue;
+<i class="no-highlight">9</i>&nbsp;
+<i class="no-highlight">10</i>&nbsp;import java.io.IOException;
+<i class="no-highlight">11</i>&nbsp;import java.nio.file.Files;
+<i class="no-highlight">12</i>&nbsp;import java.nio.file.Path;
+<i class="no-highlight">13</i>&nbsp;import java.nio.file.Paths;
+<i class="no-highlight">14</i>&nbsp;import java.nio.file.StandardOpenOption;
+<i class="no-highlight">15</i>&nbsp;import java.util.ArrayList;
+<i class="no-highlight">16</i>&nbsp;import java.util.Arrays;
+<i class="no-highlight">17</i>&nbsp;import java.util.List;
+<i class="no-highlight">18</i>&nbsp;import java.util.Map;
+<i class="no-highlight">19</i>&nbsp;import java.util.stream.Stream;
+<i class="no-highlight">20</i>&nbsp;
+<b class="fc"><i class="no-highlight">21</i>&nbsp;public class CSVSnapshotExporter implements SnapshotExporter {</b>
+<i class="no-highlight">22</i>&nbsp;    public static final String CODE = &quot;csv&quot;;
+<b class="fc"><i class="no-highlight">23</i>&nbsp;    private static final String[] BASE_HEADERS = {</b>
+<i class="no-highlight">24</i>&nbsp;            &quot;projectID&quot;,
+<i class="no-highlight">25</i>&nbsp;            &quot;commitHash&quot;
+<i class="no-highlight">26</i>&nbsp;    };
+<i class="no-highlight">27</i>&nbsp;
+<i class="no-highlight">28</i>&nbsp;    @Override
+<i class="no-highlight">29</i>&nbsp;    public boolean export(Snapshot snapshot, ProjectMetricsResults projectMetricsResults, String[] metricsCodes) throws IOException {
+<b class="fc"><i class="no-highlight">30</i>&nbsp;        String projectId = snapshot.getProjectId();</b>
+<b class="fc"><i class="no-highlight">31</i>&nbsp;        Path exportFilePath = Paths.get(projectId + &quot;_results.csv&quot;);</b>
+<i class="no-highlight">32</i>&nbsp;
+<b class="fc"><i class="no-highlight">33</i>&nbsp;        List&lt;Object&gt; record = new ArrayList&lt;&gt;();</b>
+<b class="fc"><i class="no-highlight">34</i>&nbsp;        record.add(projectId);</b>
+<b class="fc"><i class="no-highlight">35</i>&nbsp;        record.add(snapshot.getCommitHash());</b>
+<i class="no-highlight">36</i>&nbsp;
+<b class="fc"><i class="no-highlight">37</i>&nbsp;        Map&lt;String, Object&gt; projectMetrics = projectMetricsResults.getProjectMetrics();</b>
+<b class="fc"><i class="no-highlight">38</i>&nbsp;        Map&lt;String, List&lt;MetricValue&lt;?&gt;&gt;&gt; groupedValues = projectMetricsResults.classMetricsGroupedByCode();</b>
+<b class="fc"><i class="no-highlight">39</i>&nbsp;        for (String metricsCode : metricsCodes) {</b>
+<b class="fc"><i class="no-highlight">40</i>&nbsp;            Object projectMetricValue = projectMetrics.get(metricsCode);</b>
+<i class="no-highlight">41</i>&nbsp;            // Check if it is a project metric
+<b class="fc"><i class="no-highlight">42</i>&nbsp;            if (projectMetricValue != null) {</b>
+<b class="fc"><i class="no-highlight">43</i>&nbsp;                record.add(projectMetricValue);</b>
+<i class="no-highlight">44</i>&nbsp;            } else {
+<i class="no-highlight">45</i>&nbsp;                // Check if it is a class metric (to be aggregated as average)
+<b class="fc"><i class="no-highlight">46</i>&nbsp;                List&lt;MetricValue&lt;?&gt;&gt; values = groupedValues.get(metricsCode);</b>
+<b class="pc"><i class="no-highlight">47</i>&nbsp;                if (values != null) {</b>
+<i class="no-highlight">48</i>&nbsp;                    // Consider only numeric metric values
+<b class="pc"><i class="no-highlight">49</i>&nbsp;                    if (values.size() &gt; 0 &amp;&amp; values.get(0) instanceof NumericMetricValue&lt;?&gt;) {</b>
+<b class="fc"><i class="no-highlight">50</i>&nbsp;                        double meanResult = values.stream()</b>
+<b class="fc"><i class="no-highlight">51</i>&nbsp;                                .map(mv -&gt; (NumericMetricValue&lt;?&gt;) mv)</b>
+<b class="fc"><i class="no-highlight">52</i>&nbsp;                                .mapToDouble(mv -&gt; mv.getValue().doubleValue())</b>
+<b class="fc"><i class="no-highlight">53</i>&nbsp;                                .average().orElse(0.0);</b>
+<b class="fc"><i class="no-highlight">54</i>&nbsp;                        record.add(meanResult);</b>
+<b class="fc"><i class="no-highlight">55</i>&nbsp;                    }</b>
+<i class="no-highlight">56</i>&nbsp;                } else {
+<i class="no-highlight">57</i>&nbsp;                    // Metrics not found in the results: set to 0.0
+<b class="nc"><i class="no-highlight">58</i>&nbsp;                    record.add(0.0);</b>
+<i class="no-highlight">59</i>&nbsp;                }
+<i class="no-highlight">60</i>&nbsp;            }
+<i class="no-highlight">61</i>&nbsp;        }
+<i class="no-highlight">62</i>&nbsp;
+<b class="fc"><i class="no-highlight">63</i>&nbsp;        String[] headers = Stream.concat(Arrays.stream(BASE_HEADERS), Arrays.stream(metricsCodes)).toArray(String[]::new);</b>
+<b class="fc"><i class="no-highlight">64</i>&nbsp;        CSVFormat csvFormat = CSVFormat.DEFAULT</b>
+<b class="fc"><i class="no-highlight">65</i>&nbsp;                .withHeader(headers)</b>
+<b class="fc"><i class="no-highlight">66</i>&nbsp;                .withSkipHeaderRecord(exportFilePath.toFile().exists());</b>
+<b class="fc"><i class="no-highlight">67</i>&nbsp;        CSVPrinter csvPrinter = new CSVPrinter(Files.newBufferedWriter(</b>
+<i class="no-highlight">68</i>&nbsp;                exportFilePath,
+<i class="no-highlight">69</i>&nbsp;                StandardOpenOption.APPEND,
+<i class="no-highlight">70</i>&nbsp;                StandardOpenOption.CREATE),
+<i class="no-highlight">71</i>&nbsp;                csvFormat);
+<i class="no-highlight">72</i>&nbsp;
+<b class="fc"><i class="no-highlight">73</i>&nbsp;        csvPrinter.printRecord(record);</b>
+<b class="fc"><i class="no-highlight">74</i>&nbsp;        csvPrinter.close(true);</b>
+<b class="fc"><i class="no-highlight">75</i>&nbsp;        return true;</b>
+<i class="no-highlight">76</i>&nbsp;    }
+<i class="no-highlight">77</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-06-20 15:42</div>
+</div>
+</body>
+</html>
