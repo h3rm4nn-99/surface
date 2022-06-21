@@ -54,11 +54,13 @@ public class RemoteSnapshotsProjectsControl extends ProjectsControl {
                 int slashIndex, dotIndex;
                 //Extract the repo name from the provided URI
                 slashIndex = tempURI.lastIndexOf("/");
+/*
                 dotIndex = tempURI.lastIndexOf(".");
                 if (dotIndex == -1) {
                     throw new IllegalArgumentException("Controlla l'URI fornito");
                 }
-                String projectName = tempURI.substring(slashIndex, dotIndex);
+*/
+                String projectName = tempURI.substring(slashIndex);
                 destinationDir = Paths.get(WINDOWS_BASE_DIR, projectName).toFile();
             } else {
                 String projectName = Paths.get(repositoryURI).getFileName().toString();
