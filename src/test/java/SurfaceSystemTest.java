@@ -28,14 +28,14 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
                 output += s;
             }
         }
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESFirstTest.git\n" +
+        String oracle1 = "Project: IGESFirstTest.git\n" +
                 "CC = 3\n" +
                 "CCR = 0.42857142857142855\n" +
                 "CCE = 1.0\n" +
@@ -134,14 +134,14 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
                 output += s;
             }
         }
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESSecondTest.git\n" +
+        String oracle1 = "Project: IGESSecondTest.git\n" +
                 "CC = 3\n" +
                 "CCR = 0.42857142857142855\n" +
                 "CCE = 1.0\n" +
@@ -239,14 +239,14 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
                 output += s;
             }
         }
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESThirdTest\n" +
+        String oracle1 = "Project: IGESThirdTest\n" +
                 "CC = 0\n" +
                 "CCR = 0.0\n" +
                 "CCE = 0.0\n" +
@@ -284,6 +284,7 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
@@ -291,8 +292,7 @@ public class SurfaceSystemTest extends TestCase {
             }
         }
 
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESFourthTest\n" +
+        String oracle1 = "Project: IGESFourthTest\n" +
                 "CC = 1\n" +
                 "CCR = 0.3333333333333333\n" +
                 "CCE = 1.0\n" +
@@ -354,14 +354,14 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
                 output += s;
             }
         }
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESFifthTest\n" +
+        String oracle1 = "Project: IGESFifthTest\n" +
                 "CC = 1\n" +
                 "CCR = 0.5\n" +
                 "CCE = 1.0\n" +
@@ -409,14 +409,14 @@ public class SurfaceSystemTest extends TestCase {
         for (String s : splitOutput) {
             if (s.startsWith("* Printing Project Metrics")) {
                 flag = true;
+                continue;
             }
             if (flag) {
                 s += "\n";
                 output += s;
             }
         }
-        String oracle1 = "* Printing Project Metrics\n" +
-                "Project: IGESSixthTest\n" +
+        String oracle1 = "Project: IGESSixthTest\n" +
                 "CC = 9\n" +
                 "CCR = 0.3103448275862069\n" +
                 "CCE = 1.0\n" +
