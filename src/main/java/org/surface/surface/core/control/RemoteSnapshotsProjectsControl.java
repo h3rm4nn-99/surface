@@ -11,6 +11,9 @@ import org.surface.surface.results.ProjectMetricsResults;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.nio.file.FileSystem;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.LinkedHashSet;
@@ -21,6 +24,7 @@ import java.util.stream.Collectors;
 public class RemoteSnapshotsProjectsControl extends ProjectsControl {
     private final Path remoteProjectsAbsolutePath;
     public static final String BASE_DIR = "/tmp";
+    public static final String WINDOWS_BASE_DIR = "C:\\Windows\\Temp";
     private final String exportFormat;
 
     public RemoteSnapshotsProjectsControl(String[] metricsCodes, Path remoteProjectsAbsolutePath, String exportFormat) {
@@ -43,11 +47,28 @@ public class RemoteSnapshotsProjectsControl extends ProjectsControl {
                 .map(Snapshot::getRepositoryURI)
                 .collect(Collectors.toCollection(LinkedHashSet::new));
         for (String repositoryURI : repositoryURIs) {
-            String projectName = Paths.get(repositoryURI).getFileName().toString();
-            File destinationDir = Paths.get(BASE_DIR, projectName).toFile();
+            File destinationDir;
+            if(System.getProperty("os.name").contains("Windows")) {
+                String tempURI = URI.create(repositoryURI).getPath();
+                System.out.println("URI:" + tempURI);
+                int slashIndex, dotIndex;
+                //Extract the repo name from the provided URI
+                slashIndex = tempURI.lastIndexOf("/");
+                dotIndex = tempURI.lastIndexOf(".");
+                if (dotIndex == -1) {
+                    throw new IllegalArgumentException("Controlla l'URI fornito");
+                }
+                String projectName = tempURI.substring(slashIndex, dotIndex);
+                destinationDir = Paths.get(WINDOWS_BASE_DIR, projectName).toFile();
+            } else {
+                String projectName = Paths.get(repositoryURI).getFileName().toString();
+                destinationDir = Paths.get(BASE_DIR, projectName).toFile();
+            }
 
             // Delete destination directory (with all its content) if it already exists
-            delete(destinationDir);
+            if(destinationDir.exists()) {
+                delete(destinationDir);
+            }
             System.out.println("* Cloning " + repositoryURI + " to " + destinationDir);
             try (Git git = Git.cloneRepository().setDirectory(destinationDir).setURI(repositoryURI).call()) {
                 List<Snapshot> repoSnapshots = snapshots.stream()
@@ -93,9 +114,12 @@ public class RemoteSnapshotsProjectsControl extends ProjectsControl {
     }
 
     private void delete(File dir) {
+        //In Windows the deletion doesn't work, maybe an opened stream?
         try {
             FileUtils.delete(dir, FileUtils.RECURSIVE);
+        }catch(NoSuchFileException ignored){
         } catch (IOException ignored) {
+            ignored.printStackTrace();
         }
     }
 }
