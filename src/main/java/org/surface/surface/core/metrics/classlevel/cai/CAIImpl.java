@@ -19,7 +19,7 @@ public class CAIImpl extends CAI {
         for (VariableDeclarator attr : classResults.getClassifiedAttributes()) {
             actualInteractions += classResults.getUsageClassifiedMethods(attr).size();
         }
-        double possibleInteractions = ca.compute(classResults).getValue() * classResults.getUsageClassifiedMethods().size();
+        double possibleInteractions = ca.compute(classResults).getValue() * classResults.getAllClassifiedMethods().size();
         double value = possibleInteractions != 0.0 ? actualInteractions / possibleInteractions : 0.0;
         return new DoubleMetricValue(getName(), getCode(), value);
     }
