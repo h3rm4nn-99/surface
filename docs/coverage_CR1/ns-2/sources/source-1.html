@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CLIOptions</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.surface.surface.cli</a>
+</div>
+
+<h1>Coverage Summary for Class: CLIOptions (org.surface.surface.cli)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CLIOptions</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    25%
+  </span>
+  <span class="absValue">
+    (1/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    93,3%
+  </span>
+  <span class="absValue">
+    (14/15)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package org.surface.surface.cli;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.apache.commons.cli.Option;
+<i class="no-highlight">4</i>&nbsp;import org.apache.commons.cli.Options;
+<i class="no-highlight">5</i>&nbsp;
+<i class="no-highlight">6</i>&nbsp;public class CLIOptions extends Options {
+<i class="no-highlight">7</i>&nbsp;    private static CLIOptions INSTANCE;
+<i class="no-highlight">8</i>&nbsp;
+<i class="no-highlight">9</i>&nbsp;    public static final String METRICS = &quot;metrics&quot;;
+<i class="no-highlight">10</i>&nbsp;    public static final String REMOTE_PROJECTS = &quot;remoteProjects&quot;;
+<i class="no-highlight">11</i>&nbsp;    public static final String PROJECT = &quot;project&quot;;
+<i class="no-highlight">12</i>&nbsp;    public static final String EXPORT = &quot;export&quot;;
+<i class="no-highlight">13</i>&nbsp;
+<b class="fc"><i class="no-highlight">14</i>&nbsp;    private CLIOptions() {</b>
+<b class="fc"><i class="no-highlight">15</i>&nbsp;        Option metrics = new Option(METRICS, true, &quot;List of metrics of comma separated to be compute. If not present, a set of defaults are chosen.&quot;);</b>
+<b class="fc"><i class="no-highlight">16</i>&nbsp;        metrics.setArgs(Option.UNLIMITED_VALUES);</b>
+<b class="fc"><i class="no-highlight">17</i>&nbsp;        metrics.setValueSeparator(&#39;,&#39;);</b>
+<b class="fc"><i class="no-highlight">18</i>&nbsp;        Option remoteProjects = new Option(REMOTE_PROJECTS, true, &quot;Path to a csv file containing, at least, &#39;projectID&#39; with the project name, &#39;github&#39; column with the remote repository URI and &#39;commitHash&#39; the commit to checkout on. The successfully cloned projects will be placed in /tmp directory, and, then, individually analyzed. It has the priority over -project option.&quot;);</b>
+<b class="fc"><i class="no-highlight">19</i>&nbsp;        Option project = new Option(PROJECT, true, &quot;Path to a root directory of a project containing ALL .java files to be analyzed. It is considered if -remoteProject is not set. If both -project and -remoteProject are not set, then the current working directory is chosen as default.&quot;);</b>
+<b class="fc"><i class="no-highlight">20</i>&nbsp;        Option export = new Option(EXPORT, true, &quot;Generate a {csv} export of the results into the current working directory. If not set, csv is chosen. This option is valid only when analyzing remote projects.&quot;);</b>
+<b class="fc"><i class="no-highlight">21</i>&nbsp;        addOption(metrics);</b>
+<b class="fc"><i class="no-highlight">22</i>&nbsp;        addOption(remoteProjects);</b>
+<b class="fc"><i class="no-highlight">23</i>&nbsp;        addOption(project);</b>
+<b class="fc"><i class="no-highlight">24</i>&nbsp;        addOption(export);</b>
+<b class="nc"><i class="no-highlight">25</i>&nbsp;    }</b>
+<i class="no-highlight">26</i>&nbsp;
+<i class="no-highlight">27</i>&nbsp;    public static CLIOptions getInstance() {
+<b class="pc"><i class="no-highlight">28</i>&nbsp;        if (INSTANCE == null) {</b>
+<b class="fc"><i class="no-highlight">29</i>&nbsp;            INSTANCE = new CLIOptions();</b>
+<i class="no-highlight">30</i>&nbsp;        }
+<b class="fc"><i class="no-highlight">31</i>&nbsp;        return INSTANCE;</b>
+<i class="no-highlight">32</i>&nbsp;    }
+<i class="no-highlight">33</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-06-22 10:10</div>
+</div>
+</body>
+</html>

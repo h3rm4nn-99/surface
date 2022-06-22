@@ -1,23 +1,17 @@
-package org.surface.surface.cli;
+package org.surface.surface.parser;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+import org.surface.surface.cli.CLIOptions;
 import org.surface.surface.core.SurfaceInput;
+import org.surface.surface.parser.Parser;
 
 import java.util.Arrays;
 
-public class CLIParser {
-    //TODO: Crea interfaccia o classe astratta Parser e implementala/estendila
-
-    // List of default metrics
-    private static final String[] DEFAULT_METRICS = new String[]{"CA", "CM"};
-    // Current working directory as default
-    private static final String DEFAULT_PROJECT = "";
-    // csv as default
-    private static final String DEFAULT_EXPORT = "csv";
+public class CLIParser extends Parser {
 
     public SurfaceInput parse(String[] args) throws ParseException {
         // Accepted CLI options

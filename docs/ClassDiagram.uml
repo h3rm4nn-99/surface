@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>org.surface.surface.CLIStarter</OriginalElement>
+  <OriginalElement>org.surface.surface.Starter</OriginalElement>
   <nodes>
     <node x="7437.22488931215" y="-24.5">org.surface.surface.results.values.MetricValue</node>
     <node x="4065.3981844369227" y="3391.5">org.surface.surface.core.control.ProjectsControl</node>
@@ -80,10 +80,10 @@
     <node x="4185.170584804515" y="1578.5">org.surface.surface.core.metrics.classlevel.civa.CIVA</node>
     <node x="4320.308222645483" y="1578.5">org.surface.surface.core.metrics.classlevel.cma.CMA</node>
     <node x="6657.736230964325" y="1578.5">org.surface.surface.core.metrics.projectlevel.cc.CC</node>
-    <node x="3733.702759790024" y="4011.5">org.surface.surface.CLIStarter</node>
+    <node x="3733.702759790024" y="4011.5">org.surface.surface.Starter</node>
     <node x="6846.348593123357" y="1914.5">org.surface.surface.core.metrics.projectlevel.sccr.SCCRImpl</node>
     <node x="1818.2330848045153" y="2244.5">org.surface.surface.core.metrics.classlevel.cai.CAICached</node>
-    <node x="3564.452759790024" y="3882.5">org.surface.surface.cli.CLIParser</node>
+    <node x="3564.452759790024" y="3882.5">org.surface.surface.parser.CLIParser</node>
     <node x="2724.7235931233577" y="3074.0">org.surface.surface.core.metrics.ClassMetricsFactory</node>
   </nodes>
   <notes />
@@ -191,7 +191,7 @@
       <point x="7892.34862840353" y="955.9995263709443" />
       <point x="117.50003528017214" y="-4.7362905559111823E-4" />
     </edge>
-    <edge source="org.surface.surface.cli.CLIParser" target="org.surface.surface.core.SurfaceInput" relationship="CREATE">
+    <edge source="org.surface.surface.parser.CLIParser" target="org.surface.surface.core.SurfaceInput" relationship="CREATE">
       <point x="63.33333333333303" y="-38.5" />
       <point x="-131.0" y="116.0" />
     </edge>
@@ -701,7 +701,7 @@
       <point x="7732.34862840353" y="3005.2075263709444" />
       <point x="3.528017214193824E-5" y="26.999526370944295" />
     </edge>
-    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.core.Surface" relationship="CREATE">
+    <edge source="org.surface.surface.Starter" target="org.surface.surface.core.Surface" relationship="CREATE">
       <point x="53.25" y="-38.5" />
       <point x="0.0" y="38.5" />
     </edge>
@@ -1458,7 +1458,7 @@
       <point x="8426.84862840353" y="2102.2075263709444" />
       <point x="3.528017259668559E-5" y="14.49952637094438" />
     </edge>
-    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.core.SurfaceInput" relationship="DEPENDENCY">
+    <edge source="org.surface.surface.Starter" target="org.surface.surface.core.SurfaceInput" relationship="DEPENDENCY">
       <point x="74.5" y="0.0" />
       <point x="3961.952759790024" y="4050.0" />
       <point x="106.16666666666697" y="116.0" />
@@ -1915,7 +1915,7 @@
       <point x="489.82862840352936" y="2019.2075263709444" />
       <point x="-4.275752871762961E-4" y="138.4995263709444" />
     </edge>
-    <edge source="org.surface.surface.cli.CLIParser" target="org.surface.surface.cli.CLIOptions" relationship="DEPENDENCY">
+    <edge source="org.surface.surface.parser.CLIParser" target="org.surface.surface.cli.CLIOptions" relationship="DEPENDENCY">
       <point x="-41.66666666666697" y="-38.5" />
       <point x="0.0" y="38.5" />
     </edge>
@@ -2160,7 +2160,7 @@
       <point x="1081.2326284035294" y="940.9995263709443" />
       <point x="-123.99963138649474" y="-15.000473629055591" />
     </edge>
-    <edge source="org.surface.surface.CLIStarter" target="org.surface.surface.cli.CLIParser" relationship="CREATE">
+    <edge source="org.surface.surface.Starter" target="org.surface.surface.parser.CLIParser" relationship="CREATE">
       <point x="-57.25" y="-38.5" />
       <point x="89.5" y="38.5" />
     </edge>
@@ -2181,13 +2181,13 @@
     <node>org.surface.surface.core.metrics.projectlevel.cce.CCEImpl</node>
     <node>org.surface.surface.data.exports.SnapshotExporterFactory</node>
     <node>org.surface.surface.core.metrics.projectlevel.cc.CCImpl</node>
-    <node>org.surface.surface.CLIStarter</node>
+    <node>org.surface.surface.Starter</node>
     <node>org.surface.surface.core.metrics.classlevel.ca.CACached</node>
     <node>org.surface.surface.core.metrics.projectlevel.cme.CME</node>
     <node>org.surface.surface.data.exports.CSVSnapshotExporter</node>
     <node>org.surface.surface.core.analysis.ClassifiedPatterns</node>
     <node>org.surface.surface.core.metrics.classlevel.rp.RPImpl</node>
-    <node>org.surface.surface.cli.CLIParser</node>
+    <node>org.surface.surface.parser.CLIParser</node>
     <node>org.surface.surface.core.metrics.classlevel.cma.CMA</node>
     <node>org.surface.surface.core.metrics.ProjectMetricsFactory.MetricsStructure</node>
     <node>org.surface.surface.core.analysis.ClassAnalyzer</node>

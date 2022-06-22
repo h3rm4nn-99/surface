@@ -58,7 +58,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>org.surface.surface.CLIStarter</mainClass>
+                                    <mainClass>org.surface.surface.Starter</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>

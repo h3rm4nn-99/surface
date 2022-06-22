@@ -1,0 +1,151 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > SurfaceInput</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.surface.surface.core</a>
+</div>
+
+<h1>Coverage Summary for Class: SurfaceInput (org.surface.surface.core)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">SurfaceInput</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (5/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    25%
+  </span>
+  <span class="absValue">
+    (2/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    90%
+  </span>
+  <span class="absValue">
+    (9/10)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package org.surface.surface.core;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import java.nio.file.Path;
+<i class="no-highlight">4</i>&nbsp;import java.nio.file.Paths;
+<i class="no-highlight">5</i>&nbsp;
+<i class="no-highlight">6</i>&nbsp;public class SurfaceInput {
+<i class="no-highlight">7</i>&nbsp;    private final String[] metricsCodes;
+<i class="no-highlight">8</i>&nbsp;    private final Path remoteProjectsAbsolutePath;
+<i class="no-highlight">9</i>&nbsp;    private final Path projectAbsolutePath;
+<i class="no-highlight">10</i>&nbsp;    private final String exportFormat;
+<i class="no-highlight">11</i>&nbsp;
+<b class="fc"><i class="no-highlight">12</i>&nbsp;    public SurfaceInput(String[] metricsCodes, String remoteProjectsAbsolutePath, String projectAbsolutePath, String exportFormat) {</b>
+<b class="fc"><i class="no-highlight">13</i>&nbsp;        this.metricsCodes = metricsCodes;</b>
+<b class="pc"><i class="no-highlight">14</i>&nbsp;        this.remoteProjectsAbsolutePath = remoteProjectsAbsolutePath != null ? Paths.get(remoteProjectsAbsolutePath).toAbsolutePath() : null;</b>
+<b class="pc"><i class="no-highlight">15</i>&nbsp;        this.projectAbsolutePath = projectAbsolutePath != null ? Paths.get(projectAbsolutePath).toAbsolutePath() : null;</b>
+<b class="fc"><i class="no-highlight">16</i>&nbsp;        this.exportFormat = exportFormat;</b>
+<b class="nc"><i class="no-highlight">17</i>&nbsp;    }</b>
+<i class="no-highlight">18</i>&nbsp;
+<i class="no-highlight">19</i>&nbsp;    public String[] getMetricsCodes() {
+<b class="fc"><i class="no-highlight">20</i>&nbsp;        return metricsCodes.clone();</b>
+<i class="no-highlight">21</i>&nbsp;    }
+<i class="no-highlight">22</i>&nbsp;
+<i class="no-highlight">23</i>&nbsp;    public Path getRemoteProjectsAbsolutePath() {
+<b class="fc"><i class="no-highlight">24</i>&nbsp;        return remoteProjectsAbsolutePath;</b>
+<i class="no-highlight">25</i>&nbsp;    }
+<i class="no-highlight">26</i>&nbsp;
+<i class="no-highlight">27</i>&nbsp;    public Path getProjectAbsolutePath() {
+<b class="fc"><i class="no-highlight">28</i>&nbsp;        return projectAbsolutePath;</b>
+<i class="no-highlight">29</i>&nbsp;    }
+<i class="no-highlight">30</i>&nbsp;
+<i class="no-highlight">31</i>&nbsp;    public String getExportFormat() {
+<b class="fc"><i class="no-highlight">32</i>&nbsp;        return exportFormat;</b>
+<i class="no-highlight">33</i>&nbsp;    }
+<i class="no-highlight">34</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-06-22 10:10</div>
+</div>
+</body>
+</html>
