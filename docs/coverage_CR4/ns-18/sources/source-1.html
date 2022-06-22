@@ -1,0 +1,149 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CSVSnapshotsImporter</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.surface.surface.data.imports</a>
+</div>
+
+<h1>Coverage Summary for Class: CSVSnapshotsImporter (org.surface.surface.data.imports)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CSVSnapshotsImporter</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package org.surface.surface.data.imports;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.apache.commons.csv.CSVFormat;
+<i class="no-highlight">4</i>&nbsp;import org.apache.commons.csv.CSVParser;
+<i class="no-highlight">5</i>&nbsp;import org.apache.commons.csv.CSVRecord;
+<i class="no-highlight">6</i>&nbsp;import org.surface.surface.data.bean.Snapshot;
+<i class="no-highlight">7</i>&nbsp;
+<i class="no-highlight">8</i>&nbsp;import java.io.IOException;
+<i class="no-highlight">9</i>&nbsp;import java.nio.file.Files;
+<i class="no-highlight">10</i>&nbsp;import java.nio.file.Path;
+<i class="no-highlight">11</i>&nbsp;import java.util.ArrayList;
+<i class="no-highlight">12</i>&nbsp;import java.util.List;
+<i class="no-highlight">13</i>&nbsp;
+<b class="fc"><i class="no-highlight">14</i>&nbsp;public class CSVSnapshotsImporter implements SnapshotsImporter {</b>
+<i class="no-highlight">15</i>&nbsp;
+<i class="no-highlight">16</i>&nbsp;    public List&lt;Snapshot&gt; extractSnapshots(Path fileToRead) throws IOException {
+<b class="fc"><i class="no-highlight">17</i>&nbsp;        List&lt;Snapshot&gt; snapshots = new ArrayList&lt;&gt;();</b>
+<b class="fc"><i class="no-highlight">18</i>&nbsp;        CSVParser csvParser = new CSVParser(Files.newBufferedReader(fileToRead), CSVFormat.DEFAULT</b>
+<b class="fc"><i class="no-highlight">19</i>&nbsp;                .withFirstRecordAsHeader()</b>
+<b class="fc"><i class="no-highlight">20</i>&nbsp;                .withIgnoreHeaderCase()</b>
+<b class="fc"><i class="no-highlight">21</i>&nbsp;                .withTrim());</b>
+<b class="fc"><i class="no-highlight">22</i>&nbsp;        for (CSVRecord csvRecord : csvParser) {</b>
+<b class="fc"><i class="no-highlight">23</i>&nbsp;            String projectId = csvRecord.get(&quot;projectID&quot;);</b>
+<b class="fc"><i class="no-highlight">24</i>&nbsp;            String repositoryURI = csvRecord.get(&quot;github&quot;);</b>
+<b class="fc"><i class="no-highlight">25</i>&nbsp;            String commitHash = csvRecord.get(&quot;commitHash&quot;);</b>
+<b class="fc"><i class="no-highlight">26</i>&nbsp;            snapshots.add(new Snapshot(projectId, repositoryURI, commitHash));</b>
+<b class="fc"><i class="no-highlight">27</i>&nbsp;        }</b>
+<b class="fc"><i class="no-highlight">28</i>&nbsp;        csvParser.close();</b>
+<b class="fc"><i class="no-highlight">29</i>&nbsp;        return snapshots;</b>
+<i class="no-highlight">30</i>&nbsp;    }
+<i class="no-highlight">31</i>&nbsp;
+<i class="no-highlight">32</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-06-22 10:14</div>
+</div>
+</body>
+</html>
