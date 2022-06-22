@@ -62,12 +62,12 @@ public class SurfaceSystemTest extends TestCase {
                 "CAI = 0.3";
         String oracle4 = "Class: Spec\n" +
                 "CA = 1\n" +
-                "CM = 4\n" +
+                "CM = 3\n" +
                 "CIVA = 0.0\n" +
                 "CCVA = 0.0\n" +
                 "CMA = 1.0\n" +
                 "RP = false\n" +
-                "CMR = 0.09090909090909091\n" +
+                "CMR = 0.06976744186046512\n" +
                 "CAI = 1.0";
         String oracle5 = "Class: UserManager\n" +
                 "CA = 0\n" +
