@@ -2,7 +2,7 @@
   <configuration default="false" name="CLIStarter Local 1" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="org.surface.surface.Starter" />
     <module name="surface" />
-    <option name="PROGRAM_PARAMETERS" value="-metrics CA,CM,CIVA,CCVA,CMA,RP,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -project src/main/resources/IGESFirstTest  -export csv" />
+    <option name="PROGRAM_PARAMETERS" value="CLI -metrics CA,CM,CIVA,CCVA,CMA,RP,CMR,CAI,CC,CCR,CCE,CME,CSCR,SCCR -project src/main/resources/IGESFirstTest  -export csv" />
     <extension name="coverage" sample_coverage="false" />
     <method v="2">
       <option name="Make" enabled="true" />
