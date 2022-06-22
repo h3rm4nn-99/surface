@@ -12,6 +12,9 @@ import java.util.Arrays;
 
 public class Starter {
     public static void main(String[] args) {
+        if (args.length == 0) {
+            throw new IllegalArgumentException("Please specify a parser!");
+        }
         String type = args[0];
         ParserID parserId;
         switch (type) {
