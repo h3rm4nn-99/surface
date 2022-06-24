@@ -14,8 +14,8 @@ public class ClassifiedPatterns {
     private List<Pattern> patterns;
 
     private ClassifiedPatterns() {
-        try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("patterns");
+            if(inputStream==null) throw new IllegalArgumentException("unable to access patterns file");
             Scanner scanner = new Scanner(inputStream);
             patterns = new ArrayList<>();
             while (scanner.hasNext()) {
@@ -24,9 +24,7 @@ public class ClassifiedPatterns {
                 Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
                 patterns.add(pattern);
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+
     }
 
     public static ClassifiedPatterns getInstance() {
