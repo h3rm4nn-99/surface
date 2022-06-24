@@ -2,6 +2,7 @@ package org.surface.surface.core.analysis;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +15,8 @@ public class ClassifiedPatterns {
 
     private ClassifiedPatterns() {
         try {
-            Scanner scanner = new Scanner(new File(patternsPath));
+            InputStream inputStream = getClass().getClassLoader().getResourceAsStream("patterns");
+            Scanner scanner = new Scanner(inputStream);
             patterns = new ArrayList<>();
             while (scanner.hasNext()) {
                 String line = scanner.nextLine();
